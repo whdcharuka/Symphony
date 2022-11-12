@@ -53,7 +53,7 @@ function Navbar() {
                 Price
               </Link>
             </li> */}
-            <li className='nav-item'>
+            {/* <li className='nav-item'>
               <Link
                 to='/language'
                 className='nav-links'
@@ -61,7 +61,7 @@ function Navbar() {
               >
                 Language
               </Link>
-            </li>
+            </li> */}
             <li className='nav-item'>
               <Link
                 to='/login'
@@ -71,18 +71,18 @@ function Navbar() {
                 Login
               </Link>
             </li>
-            {/* <li>
+            <li>
               <Link
-                to='/'
+                to='/login'
                 className='nav-links-mobile'
                 onClick={closeMobileMenu}
               >
-                Register
+                Share Item
               </Link>
-            </li> */}
+            </li>
           </ul>
           <li>
-            {button && <Button buttonStyle='btn--outline' link to='/login'>Share Your Item</Button>}                               
+            {button && <Button buttonStyle='btn--outline'>Share Your Item</Button>}                               
           </li>
         </div>
       </nav>

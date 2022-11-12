@@ -12,7 +12,7 @@ function CardsHome() {
               <CardItem
                 src='images/car.png'
                 text='Vehicle Parts'
-                path='/VehicleParts'
+                path='/vehicalparts'
               />
               <CardItem
                 src='images/smartphone (2).png'

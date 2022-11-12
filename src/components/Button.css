@@ -4,9 +4,9 @@
 
 .btn {
   color: rgb(0, 0, 0);
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   font-size: 20px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   outline: none;
   border: none;
@@ -18,7 +18,7 @@
 
 .btnreset {
   color: rgb(0, 0, 0);
-  padding: 10px 20px;
+  /* padding: 10px 20px; */
   font-size: 20px;
   border-radius: 5px;
   cursor: pointer;

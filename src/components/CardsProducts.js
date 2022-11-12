@@ -12,17 +12,17 @@ function CardsProducts() {
           <ul className='cards__items'>
             <CardItem
               src='images/car.png'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text=''
               path='/services'
             />
             <CardItem
               src='images/car.png'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text=''
               path='/products'
             />
             <CardItem
               src='images/car.png'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text=''
               path='/sign-up'
             />
           </ul>
@@ -30,17 +30,17 @@ function CardsProducts() {
           <ul className='cards__items'>
             <CardItem
               src='images/car.png'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text=''
               path='/services'
             />
             <CardItem
               src='images/car.png'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text=''
               path='/products'
             />
             <CardItem
               src='images/car.png'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text=''
               path='/sign-up'
             />
           </ul>
@@ -48,17 +48,17 @@ function CardsProducts() {
           <ul className='cards__items'>
             <CardItem
               src='images/car.png'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
+              text=''
               path='/services'
             />
             <CardItem
               src='images/car.png'
-              text='Experience Football on Top of the Himilayan Mountains'
+              text=''
               path='/products'
             />
             <CardItem
               src='images/car.png'
-              text='Ride through the Sahara Desert on a guided camel tour'
+              text=''
               path='/sign-up'
             />
           </ul>

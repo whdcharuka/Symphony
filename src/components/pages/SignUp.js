@@ -14,23 +14,29 @@ export default function Form() {
                   <h2>Fill in the details</h2>
                   <hr></hr>
                   <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
-                    <p>Brand</p>
+                    <label>Brand</label>
                       <input type="text" className='d' {...register("brand")} placeholder='Brand' />
-                    <p>Model</p>  
+                    <label>Model</label>  
                       <input type="text" className='d' {...register("model")} placeholder='Model' />
-                    <p>Tittle</p>
+                    <label>Tittle</label>
                       <input type="text" className='d' {...register("tittle")} placeholder='Tittle' />
-                    <p>Description</p>  
+                    <label>Description</label>  
                       <input type="text" className='d' {...register("description")} placeholder='Description' />
+                      
                       <hr></hr>
-                    <p>Add photo</p>
+                    <label>Add photo</label> 
+                    <div className="wrapper">
+                    <input type="file" className="file"></input>
+                    <input type="file" className="file"></input>
+                    <input type="file" className="file"></input>
+                    </div>
                       <hr></hr>
                     <h4>Contact details</h4>
-                    <p>Name</p>
+                    <label>Name</label>
                       <input type="text" className='d' {...register("name")} placeholder='Name' />
-                    <p>Email</p>
+                    <label>Email</label>
                       <input type="text" className='d' {...register("email")} placeholder='Email' />
-                    <p>Phone Number</p>
+                    <label>Phone Number</label>
                       <input type="text" className='d' {...register("number")} placeholder='Phone Number' />
                       {errors.mobile?.type === "required" && "Mobile Number is required"}
                       {errors.mobile?.type === "maxLength" && "Max Length Exceed"}

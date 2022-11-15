@@ -23,9 +23,9 @@ export default function Form() {
         </div>
         <h1>Condition: Used <br></br>
 
-Description: <br></br>
-Sale due to migration
-Work in good </h1>
+            Description: <br></br>
+            Sale due to migration
+            Work in good </h1>
       </div>
   );
 }

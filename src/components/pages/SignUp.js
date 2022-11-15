@@ -52,7 +52,6 @@ export default function Form() {
                   </form>
               </div>
           </div>
-    </section>
-        
+    </section>      
   )
 }

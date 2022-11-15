@@ -9,6 +9,7 @@ import Login from './components/pages/Login';
 import Reset from './components/pages/Reset';
 import Contacts from './components/pages/Contacts';
 import Vehicalparts from './components/pages/Vehicalparts';
+import Itemview from './components/pages/Itemview';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/reset' component={Reset} />
           <Route path='/contacts' component={Contacts} />
           <Route path='/vehicalparts' component={Vehicalparts} />
+          <Route path='/Itemview' component={Itemview} />
         </Switch>
       </Router>
     </>

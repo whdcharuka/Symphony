@@ -20,7 +20,7 @@ const Categories = () => {
       cateName: "Home & Garden",
     }, 
     {
-      path:"Pet",
+      path:"Animals",
       cateImg: "./images/Categories/cat.png",
       cateName: "Pets",
     },

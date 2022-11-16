@@ -1,31 +1,25 @@
-import React from 'react'
-import './Itemview.css';
-import { useForm } from 'react-hook-form';
-import CardItem from '../CardItem';
+import React from 'react';
+import '../../App.css';
+import Categories from './Categories';
+import EducationItemView from './EducationItemView';
+import Description from './Description';
 
-export default function Form() {
-
-    const { register, handleSubmit, watch, formState: { errors } } = useForm()
-    const onSubmit = data => console.log(data);
-    
+function Home() {
   return (
-    <div className='cards'>
-    <h1>Browse items by category</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/car.png'
-              path='/Itemview'
-            />
-          </ul>        
-          </div>
+    <>
+      <section>
+        <div className='container d_flex'>
+          <Categories />
+            <div className='photo'>
+               <EducationItemView />
+            </div>
+            <div className='description'>
+               <Description/>
+            </div>
         </div>
-        <h1>Condition: Used <br></br>
-
-            Description: <br></br>
-            Sale due to migration
-            Work in good </h1>
-      </div>
+      </section>
+    </>
   );
 }
+
+export default Home;

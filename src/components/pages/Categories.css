@@ -6,11 +6,12 @@
   .category {
     box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
     background-color: #fff;
-    width: 16%;
-    height: 600px;
-    padding: 15px 0;
+    width: 15%;
+    height: 620px;
+    padding: 10px 0;
     border-radius: 10px;
     margin-top: 40px;
+    margin-left: 10px;
   }
   
   .category img {
@@ -24,6 +25,7 @@
     margin: 15px;
     text-transform: capitalize;
     margin-top: 12px;
+    font-size: 15px;
   }
   
   .category .box {
@@ -40,38 +42,7 @@
   .f_flex {
     display: flex;
   }
-  
-  
-  /*---------category----------*/
-  .btn-primary {
-    background: #e94560;
-    padding: 13px 40px;
-    font-weight: bold;
-    color: #fff;
-    border-radius: 10px;
-  }
-  
-  .top {
-    margin-top: 80px;
-  }
-  
-  .mtop {
-    margin-top: 40px;
-  }
-  
-  .heading i {
-    color: #e94560;
-    margin: 10px;
-  }
-  
-  .discount {
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #e94560;
-    padding: 3px 10px;
-    font-size: 12px;
-    border-radius: 50px;
-    color: #fff;
-    margin: 10px;
+
+  .abc {
+    text-decoration: none;
   }

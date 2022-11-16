@@ -19,8 +19,9 @@ import Foods from './components/pages/Foods';
 import Education from './components/pages/Education';
 import Essentials from './components/pages/Essentials';
 import FashionBeauty from './components/pages/FashionBeauty';
-import Other from './components/pages/Other';
-import No from './components/pages/No';
+import Gifts from './components/pages/Gifts';
+import Music from './components/pages/Music';
+import Toys from './components/pages/Toys';
 
 function App() {
   return (
@@ -45,8 +46,9 @@ function App() {
           <Route path='/Services' component={Services} />
           <Route path='/Essentials' component={Essentials} />
           <Route path='/FashionBeauty' component={FashionBeauty} />
-          <Route path='/Other' component={Other} />
-          <Route path='/No' component={No} />
+          <Route path='/Gifts' component={Gifts} />
+          <Route path='/Music' component={Music} />
+          <Route path='/Toys' component={Toys} />
         </Switch>
       </Router>
     </>

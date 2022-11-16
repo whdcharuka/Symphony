@@ -5,48 +5,64 @@ import './Categories.css';
 const Categories = () => {
   const data = [
     {
-      cateImg: "./images/category/cat1.png",
-      cateName: "Fashion",
+      path:"/Vehicalparts",
+      cateImg: "./images/Categories/car.png",
+      cateName: "Vehical Parts",
     },
     {
-      cateImg: "./images/category/cat2.png",
-      cateName: "Electronic",
+      path:"/ElectronicDevices",
+      cateImg: "./images/Categories/smartphone (2).png",
+      cateName: "Electronics",
     },
     {
-      cateImg: "./images/category/cat3.png",
-      cateName: "Cars",
-    },
-    {
-      cateImg: "./images/category/cat4.png",
+      path:"/HomeGarden",
+      cateImg: "./images/Categories/house.png",
       cateName: "Home & Garden",
-    },
+    }, 
     {
-      cateImg: "./images/category/cat5.png",
-      cateName: "Gifts",
-    },
-    {
-      cateImg: "./images/category/cat6.png",
-      cateName: "Music",
-    },
-    {
-      cateImg: "./images/category/cat7.png",
-      cateName: "Health & Beauty",
-    },
-    {
-      cateImg: "./images/category/cat8.png",
+      path:"Pet",
+      cateImg: "./images/Categories/cat.png",
       cateName: "Pets",
     },
     {
-      cateImg: "./images/category/cat9.png",
-      cateName: "Baby Toys",
+      path:"/Toys",
+      cateImg: "./images/Categories/toys.png",
+      cateName: "Toys",
     },
     {
-      cateImg: "./images/category/cat10.png",
-      cateName: "Groceries",          
+      path:"/HobbySport",
+      cateImg: "./images/Categories/sports.png",
+      cateName: "Hobby & Sport",
     },
     {
-      cateImg: "./images/category/cat11.png",
-      cateName: "Books",
+      path:"/Foods",
+      cateImg: "./images/Categories/burger.png",
+      cateName: "Foods",
+    },
+    {
+      path:"/Education",
+      cateImg: "./images/Categories/education.png",
+      cateName: "Education",
+    },
+    {
+      path:"/Essentials",
+      cateImg: "./images/Categories/essential-oil.png",
+      cateName: "Essentials",          
+    },
+    {
+      path:"/FashionBeauty",
+      cateImg: "./images/Categories/dress.png",
+      cateName: "Fashion",
+    },
+    {
+      path:"/Gifts",
+      cateImg: "./images/Categories/giftbox.png",
+      cateName: "Gifts",
+    },
+    {
+      path:"/Music",
+      cateImg: "./images/Categories/guitar.png",
+      cateName: "Music",
     },
   ]
 
@@ -55,10 +71,12 @@ const Categories = () => {
       <div className='category'>
         {data.map((value, index) => {
           return (
-            <div className='box f_flex' key={index}>
-              <img src={value.cateImg} alt='' />
-              <span>{value.cateName}</span>    
-            </div>
+            <Link to={value.path} className='abc'>
+              <div className='box f_flex' key={index}>
+                  <img src={value.cateImg} alt='' />
+                  <span>{value.cateName}</span>    
+              </div>
+            </Link>
           )
         })}
       </div>

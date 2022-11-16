@@ -22,29 +22,29 @@ export default function Form() {
             <CardItem
               src='images/smartphone (2).png'
               text='Details'
-              path='/ElectronicDevices'
+              path='/Itemview'
             />
             <CardItem
               src='images/house.png'
               text='Details'
-              path='/HomeGarden'
+              path='/Itemview'
             />
           </ul> 
           <ul className='cards__items'>
             <CardItem
               src='images/car.png'
               text='Details'
-              path='/vehicalparts'
+              path='/Itemview'
             />
             <CardItem
               src='images/smartphone (2).png'
               text='Details'
-              path='/ElectronicDevices'
+              path='/Itemview'
             />
             <CardItem
               src='images/house.png'
               text='Details'
-              path='/HomeGarden'
+              path='/Itemview'
             />
           </ul>       
           </div>

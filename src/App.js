@@ -13,7 +13,6 @@ import Vehicalparts from './components/pages/Vehicalparts';
 import ElectronicDevices from './components/pages/ElectronicDevices';
 import HomeGarden from './components/pages/HomeGarden';
 import Animals from './components/pages/Animals';
-import Services from './components/pages/Services';
 import HobbySport from './components/pages/HobbySport';
 import Foods from './components/pages/Foods';
 import Education from './components/pages/Education';
@@ -43,7 +42,6 @@ function App() {
           <Route path='/HomeGarden' component={HomeGarden} />
           <Route path='/Foods' component={Foods} />
           <Route path='/Education' component={Education} />
-          <Route path='/Services' component={Services} />
           <Route path='/Essentials' component={Essentials} />
           <Route path='/FashionBeauty' component={FashionBeauty} />
           <Route path='/Gifts' component={Gifts} />

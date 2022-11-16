@@ -8,8 +8,19 @@ import SignUp from './components/pages/SignUp';
 import Login from './components/pages/Login';
 import Reset from './components/pages/Reset';
 import Contacts from './components/pages/Contacts';
-import Vehicalparts from './components/pages/Vehicalparts';
 import Itemview from './components/pages/Itemview';
+import Vehicalparts from './components/pages/Vehicalparts';
+import ElectronicDevices from './components/pages/ElectronicDevices';
+import HomeGarden from './components/pages/HomeGarden';
+import Animals from './components/pages/Animals';
+import Services from './components/pages/Services';
+import HobbySport from './components/pages/HobbySport';
+import Foods from './components/pages/Foods';
+import Education from './components/pages/Education';
+import Essentials from './components/pages/Essentials';
+import FashionBeauty from './components/pages/FashionBeauty';
+import Other from './components/pages/Other';
+import No from './components/pages/No';
 
 function App() {
   return (
@@ -23,8 +34,19 @@ function App() {
           <Route path='/login' component={Login} />
           <Route path='/reset' component={Reset} />
           <Route path='/contacts' component={Contacts} />
-          <Route path='/vehicalparts' component={Vehicalparts} />
           <Route path='/Itemview' component={Itemview} />
+          <Route path='/vehicalparts' component={Vehicalparts} />
+          <Route path='/ElectronicDevices' component={ElectronicDevices} />
+          <Route path='/Animals' component={Animals} />
+          <Route path='/HobbySport' component={HobbySport} />
+          <Route path='/HomeGarden' component={HomeGarden} />
+          <Route path='/Foods' component={Foods} />
+          <Route path='/Education' component={Education} />
+          <Route path='/Services' component={Services} />
+          <Route path='/Essentials' component={Essentials} />
+          <Route path='/FashionBeauty' component={FashionBeauty} />
+          <Route path='/Other' component={Other} />
+          <Route path='/No' component={No} />
         </Switch>
       </Router>
     </>

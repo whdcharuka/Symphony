@@ -1,54 +1,21 @@
-import React from 'react'
-import './Login.css';
-import { useForm } from 'react-hook-form';
-import CardItem from '../CardItem';
+import React from 'react';
+import '../../App.css';
+import Categories from './Categories';
+import HobbySportItem from './HobbySportItem';
 
-export default function Form() {
-
-    const { register, handleSubmit, watch, formState: { errors } } = useForm()
-    const onSubmit = data => console.log(data);
-    
+function Home() {
   return (
-    <div className='cards'>
-    <h1>Browse items by category</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/car.png'
-              text='Details'
-              path='/Itemview'
-            />
-            <CardItem
-              src='images/smartphone (2).png'
-              text='Details'
-              path='/Itemview'
-            />
-            <CardItem
-              src='images/house.png'
-              text='Details'
-              path='/Itemview'
-            />
-          </ul> 
-          <ul className='cards__items'>
-            <CardItem
-              src='images/car.png'
-              text='Details'
-              path='/Itemview'
-            />
-            <CardItem
-              src='images/smartphone (2).png'
-              text='Details'
-              path='/Itemview'
-            />
-            <CardItem
-              src='images/house.png'
-              text='Details'
-              path='/Itemview'
-            />
-          </ul>       
-          </div>
+    <>
+      <section>
+        <div className='container d_flex'>
+          <Categories />
+            <div className='qwe'>
+               <HobbySportItem />
+            </div>
         </div>
-      </div>
+      </section>
+    </>
   );
 }
+
+export default Home;

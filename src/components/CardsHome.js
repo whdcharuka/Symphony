@@ -10,68 +10,68 @@ function CardsHome() {
           <div className='cards__wrapper'>
             <ul className='cards__items'>
               <CardItem
-                src='images/car.png'
+                src='images/Categories/car.png'
                 text='Vehicle Parts'
                 path='/vehicalparts'
               />
               <CardItem
-                src='images/smartphone (2).png'
+                src='images/Categories/smartphone (2).png'
                 text='Electronic Devices'
                 path='/ElectronicDevices'
               />
               <CardItem
-                src='images/house.png'
+                src='images/Categories/house.png'
                 text='Home & Garden'
                 path='/HomeGarden'
               />
               <CardItem
-                src='images/cat.png'
-                text='Animals'
+                src='images/Categories/cat.png'
+                text='Pets'
                 path='/Animals'
               />
             </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/customer-service.png'
-              text='Services'
-              path='/Services'
+              src='images/Categories/toys.png'
+              text='Toys'
+              path='/Toys'
             />
             <CardItem
-              src='images/sports.png'
+              src='images/Categories/sports.png'
               text='Hobby & Sport'
               path='/HobbySport'
             />
             <CardItem
-              src='images/burger.png'
+              src='images/Categories/burger.png'
               text='Foods'
               path='/Foods'
             />
             <CardItem
-              src='images/education.png'
+              src='images/Categories/education.png'
               text='Education'
               path='/Education'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/essential-oil.png'
+              src='images/Categories/essential-oil.png'
               text='Essentials'
               path='/Essentials'
             />
             <CardItem
-              src='images/dress.png'
+              src='images/Categories/dress.png'
               text='Fashion & Beauty'
               path='/FashionBeauty'
             />
             <CardItem
-              src='images/delivery-box.png'
-              text='Other'
-              path='/Other'
+              src='images/Categories/giftbox.png'
+              text='Gifts'
+              path='/Gifts'
             />
             <CardItem
-              src='images/working.png'
-              text='No'
-              path='/No'
+              src='images/Categories/guitar.png'
+              text='Music'
+              path='/Music'
             />
           </ul>
 
@@ -88,10 +88,6 @@ function CardsHome() {
               src='images/pencil.png'
               text='Post ads about any items or services you need to share online'
             />
-            {/* <CardItem
-              src='images/black-shop-tag.png'
-              text='Your ads will be exposed to thousands of buyers online everyday'
-            /> */}
             <CardItem
               src='images/free.png'
               text='Select the best item you received and start share your items or services'

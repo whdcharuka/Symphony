@@ -11,41 +11,29 @@ export default function Form() {
   return (
     <>
     <div className='cards'>
-      <h6>Education</h6>
+      <h1></h1>
         <div className='cards__container'>
           <div className='cards__wrapper'>
             <ul className='cards__items'>
               <CardItem
                 src='images/Education/car.png'
-                path='/Itemview'
-                text='Details'
               />
               <CardItem
                 src='images/Education/smartphone (2).png'
-                path='/Itemview'
-                text='Details'
               />
               <CardItem
                 src='images/Education/smartphone (2).png'
-                path='/Itemview'
-                text='Details'
               />
             </ul> 
             <ul className='cards__items'>
               <CardItem
                 src='images/Education/car.png'
-                path='/Itemview'
-                text='Details'
               />
               <CardItem
                 src='images/Education/smartphone (2).png'
-                path='/Itemview'
-                text='Details'
               />
               <CardItem
                 src='images/Education/smartphone (2).png'
-                path='/Itemview'
-                text='Details'
               />
             </ul>          
           </div>

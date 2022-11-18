@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Categories from './Categories';
-import Vp6ItemView from './Vp6ItemView';
+import Vp6View from './Vp6View';
 import Description from './Description';
 
 function Home() {
@@ -11,7 +11,7 @@ function Home() {
         <div className='container d_flex'>
           <Categories />
             <div className='photo'>
-               <Vp6ItemView />
+               <Vp6View />
             </div>
             <div className='description'>
                <Description/>

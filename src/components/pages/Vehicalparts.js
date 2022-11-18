@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Categories from './Categories';
-import VehicalpartsItem from './VehicalpartsItem';
+import VpItem from './VpItem';
 
 function Home() {
   return (
@@ -10,7 +10,7 @@ function Home() {
         <div className='container d_flex'>
           <Categories />
             <div className='qwe'>
-               <VehicalpartsItem />
+               <VpItem />
             </div>
         </div>
       </section>

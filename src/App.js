@@ -7,21 +7,25 @@ import Language from './components/pages/Language';
 import SignUp from './components/pages/SignUp';
 import Login from './components/pages/Login';
 import Reset from './components/pages/Reset';
+
+import Services from './components/pages/Services';
+import Resources from './components/pages/Resources';
 import Contacts from './components/pages/Contacts';
+import About from './components/pages/About';
 
 import Itemview from './components/pages/Itemview';
 
-import Vehicalparts from './components/pages/Vehicalparts';
-import Vp1 from './components/pages/Vp1';
-import Vp2 from './components/pages/Vp2';
-import Vp3 from './components/pages/Vp3';
-import Vp4 from './components/pages/Vp4';
-import Vp5 from './components/pages/Vp5';
-import Vp6 from './components/pages/Vp6';
-import Vp7 from './components/pages/Vp7';
-import Vp8 from './components/pages/Vp8';
-import Vp9 from './components/pages/Vp9';
-import Vp10 from './components/pages/Vp10';
+import Vehicalparts from './components/Vehicalparts/Vehicalparts';
+import Vp1 from './components/Vehicalparts/Vp1';
+import Vp2 from './components/Vehicalparts/Vp2';
+import Vp3 from './components/Vehicalparts/Vp3';
+import Vp4 from './components/Vehicalparts/Vp4';
+import Vp5 from './components/Vehicalparts/Vp5';
+import Vp6 from './components/Vehicalparts/Vp6';
+import Vp7 from './components/Vehicalparts/Vp7';
+import Vp8 from './components/Vehicalparts/Vp8';
+import Vp9 from './components/Vehicalparts/Vp9';
+import Vp10 from './components/Vehicalparts/Vp10';
 
 import ElectronicDevices from './components/pages/ElectronicDevices';
 import El from './components/pages/El';
@@ -67,7 +71,11 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/login' component={Login} />
           <Route path='/reset' component={Reset} />
-          <Route path='/contacts' component={Contacts} />
+          
+          <Route path='/Services' component={Services} />
+          <Route path='/Resources' component={Resources} />
+          <Route path='/Contacts' component={Contacts} />
+          <Route path='/About' component={About} />
           
           <Route path='/Itemview' component={Itemview} />
           

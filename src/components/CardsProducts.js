@@ -8,7 +8,6 @@ function CardsProducts() {
       <h1>About</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
-        <h1>dzfbth</h1>
           <ul className='cards__items'>
             <CardItem
               src='images/car.png'
@@ -19,47 +18,6 @@ function CardsProducts() {
               src='images/car.png'
               text=''
               path='/products'
-            />
-            <CardItem
-              src='images/car.png'
-              text=''
-              path='/sign-up'
-            />
-          </ul>
-          <h1>dzfbth</h1>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/car.png'
-              text=''
-              path='/services'
-            />
-            <CardItem
-              src='images/car.png'
-              text=''
-              path='/products'
-            />
-            <CardItem
-              src='images/car.png'
-              text=''
-              path='/sign-up'
-            />
-          </ul>
-          <h1>dzfbth</h1>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/car.png'
-              text=''
-              path='/services'
-            />
-            <CardItem
-              src='images/car.png'
-              text=''
-              path='/products'
-            />
-            <CardItem
-              src='images/car.png'
-              text=''
-              path='/sign-up'
             />
           </ul>
         </div>

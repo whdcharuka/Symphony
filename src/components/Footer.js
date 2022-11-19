@@ -15,7 +15,7 @@ function Footer() {
           <div class='footer-link-items'>
             {/* <h6>Home</h6> */}
             <Link
-              to='/home'
+              to='/'
             >
               Home
             </Link>
@@ -23,7 +23,7 @@ function Footer() {
           <div class='footer-link-items'>
             {/* <h6>Services</h6> */}
             <Link
-              to='/services'
+              to='/Services'
             >
               Services
             </Link>
@@ -32,15 +32,15 @@ function Footer() {
           <div class='footer-link-items'>
             {/* <h6>Rresource</h6> */}
             <Link
-              to='/services'
+              to='/Resources'
             >
-              Rresource
+              Resources
             </Link>
           </div>
           <div class='footer-link-items'>
             {/* <h6>Contact</h6> */}
             <Link
-              to='/services'
+              to='/Contacts'
             >
               Contact
             </Link>
@@ -48,7 +48,7 @@ function Footer() {
           <div class='footer-link-items'>
             {/* <h6>About</h6> */}
             <Link
-              to='/services'
+              to='/About'
             >
               About
             </Link>

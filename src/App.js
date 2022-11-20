@@ -33,8 +33,17 @@ import El from './components/pages/El';
 import HomeGarden from './components/pages/HomeGarden';
 import Hg from './components/pages/Hg';
 
-import Animals from './components/pages/Animals';
-import An from './components/pages/An';
+import Animals from './components/Animals/Animals';
+import An1 from './components/Animals/An1';
+import An2 from './components/Animals/An2';
+import An3 from './components/Animals/An3';
+import An4 from './components/Animals/An4';
+import An5 from './components/Animals/An5';
+import An6 from './components/Animals/An6';
+import An7 from './components/Animals/An7';
+import An8 from './components/Animals/An8';
+import An9 from './components/Animals/An9';
+import An10 from './components/Animals/An10';
 
 import HobbySport from './components/pages/HobbySport';
 import Hs from './components/pages/Hs';
@@ -95,7 +104,16 @@ function App() {
           <Route path='/El' component={El} />
           
           <Route path='/Animals' component={Animals} />
-          <Route path='/An' component={An} />
+          <Route path='/An1' component={An1} />
+          <Route path='/An2' component={An2} />
+          <Route path='/An3' component={An3} />
+          <Route path='/An4' component={An4} />
+          <Route path='/An5' component={An5} />
+          <Route path='/An6' component={An6} />
+          <Route path='/An7' component={An7} />
+          <Route path='/An8' component={An8} />
+          <Route path='/An9' component={An9} />
+          <Route path='/An10' component={An10} />
           
           <Route path='/HobbySport' component={HobbySport} />
           <Route path='/Hs' component={Hs} />

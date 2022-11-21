@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Categories from '../pages/Categories';
 import Vp7View from './Vp7View';
-import Description from '../pages/Description';
+import Des7 from './Des7';
 
 function Home() {
   return (
@@ -14,7 +14,7 @@ function Home() {
                <Vp7View />
             </div>
             <div className='description'>
-               <Description/>
+               <Des7/>
             </div>
         </div>
       </section>

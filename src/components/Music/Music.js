@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Categories from '../pages/Categories';
 import MuItem from './MuItem';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
                <MuItem />
             </div>
         </div>
+        <Footer />
       </section>
     </>
   );

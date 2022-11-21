@@ -3,6 +3,7 @@ import '../../App.css';
 import Categories from '../pages/Categories';
 import Gi6View from './Gi6View';
 import Des6 from './Des6';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
                <Des6/>
             </div>
         </div>
+        <Footer />
       </section>
     </>
   );

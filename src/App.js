@@ -283,16 +283,16 @@ function App() {
           <Route path='/Fb10' component={Fb10} />
           
           <Route path='/Gifts' component={Gifts} />
-          <Route path='/Mu1' component={Mu1} />
-          <Route path='/Mu2' component={Mu2} />
-          <Route path='/Mu3' component={Mu3} />
-          <Route path='/Mu4' component={Mu4} />
-          <Route path='/Mu5' component={Mu5} />
-          <Route path='/Mu6' component={Mu6} />
-          <Route path='/Mu7' component={Mu7} />
-          <Route path='/Mu8' component={Mu8} />
-          <Route path='/Mu9' component={Mu9} />
-          <Route path='/Mu10' component={Mu10} />
+          <Route path='/Gi1' component={Gi1} />
+          <Route path='/Gi2' component={Gi2} />
+          <Route path='/Gi3' component={Gi3} />
+          <Route path='/Gi4' component={Gi4} />
+          <Route path='/Gi5' component={Gi5} />
+          <Route path='/Gi6' component={Gi6} />
+          <Route path='/Gi7' component={Gi7} />
+          <Route path='/Gi8' component={Gi8} />
+          <Route path='/Gi9' component={Gi9} />
+          <Route path='/Gi10' component={Gi10} />
           
           <Route path='/Music' component={Music} />
           <Route path='/Mu1' component={Mu1} />

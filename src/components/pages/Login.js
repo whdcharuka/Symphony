@@ -1,5 +1,6 @@
 import React from 'react'
 import './Login.css';
+import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
 
 export default function Form() {
@@ -9,7 +10,7 @@ export default function Form() {
     
   return (
     <section>
-        <section>
+        {/* <section>
           <div className="register">
               <div className="col-1">
                   <h2>Get Started with MAKER</h2>
@@ -29,9 +30,7 @@ export default function Form() {
                   <img src='images/students.jpg' />
               </div>
           </div>
-        </section>
-
-        <h1>Already have an account? <h6>Login Here</h6></h1>
+        </section> */}
         <section>
             <div className="register">
                 <div className="col-1">
@@ -39,11 +38,11 @@ export default function Form() {
                       <span>Login to your account</span>
 
                       <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
-                          <input type="text" className='d' {...register("password")} placeholder='Email' />
-                          <input type="text" className='d' {...register("confirmpwd")} placeholder='Password' />
+                          <input type="text" className='d' {...register("email")} placeholder='Email' />
+                          <input type="text" className='d' {...register("pwd")} placeholder='Password' />
                           {errors.mobile?.type === "required" && "Mobile Number is required"}
                           {errors.mobile?.type === "maxLength" && "Max Length Exceed"}
-                          <button className='btn'>Create Account</button>
+                          <button className='btn'>Login</button>
                       </form>
 
                   </div>
@@ -52,6 +51,9 @@ export default function Form() {
                   </div>
               </div>
           </section>
+
+          <h1>Don't have an account? <Link to='/register'>  Register </Link> </h1>
+
         </section>
   )
 }

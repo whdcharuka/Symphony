@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css';
 import Categories from '../pages/Categories';
 import TyItem from './TyItem';
-import Footer from '../Footer';
 
 function Home() {
   return (
@@ -14,7 +13,6 @@ function Home() {
                <TyItem />
             </div>
         </div>
-        <Footer />
       </section>
     </>
   );

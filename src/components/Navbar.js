@@ -44,24 +44,6 @@ function Navbar() {
                 Discover
               </Link>
             </li>
-            {/* <li className='nav-item'>
-              <Link
-                to='/price'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Price
-              </Link>
-            </li> */}
-            {/* <li className='nav-item'>
-              <Link
-                to='/language'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                Language
-              </Link>
-            </li> */}
             <li className='nav-item'>
               <Link
                 to='/login'
@@ -69,6 +51,24 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Login
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/Contacts'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Contact
+              </Link>
+            </li>
+            <li className='nav-item'>
+              <Link
+                to='/About'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                About Us
               </Link>
             </li>
             <li>

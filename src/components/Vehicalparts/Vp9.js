@@ -3,7 +3,6 @@ import '../../App.css';
 import Categories from '../pages/Categories';
 import Vp9View from './Vp9View';
 import Des9 from './Des9';
-import Footer from '../Footer';
 
 function Home() {
   return (
@@ -18,7 +17,6 @@ function Home() {
                <Des9/>
             </div>
         </div>
-        <Footer />
       </section>
     </>
   );

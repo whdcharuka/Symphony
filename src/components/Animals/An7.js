@@ -3,7 +3,6 @@ import '../../App.css';
 import Categories from '../pages/Categories';
 import An7View from './An7View';
 import Des7 from './Des7';
-import Footer from '../Footer';
 
 function Home() {
   return (
@@ -18,7 +17,6 @@ function Home() {
                <Des7/>
             </div>
         </div>
-        <Footer />
       </section>
     </>
   );

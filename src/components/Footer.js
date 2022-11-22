@@ -13,7 +13,6 @@ function Footer() {
       <div class='footer-links'>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            {/* <h6>Home</h6> */}
             <Link
               to='/'
             >
@@ -21,7 +20,6 @@ function Footer() {
             </Link>
           </div>
           <div class='footer-link-items'>
-            {/* <h6>Services</h6> */}
             <Link
               to='/Services'
             >
@@ -30,15 +28,6 @@ function Footer() {
           </div>
         </div>
           <div class='footer-link-items'>
-            {/* <h6>Rresource</h6> */}
-            <Link
-              to='/Resources'
-            >
-              Resources
-            </Link>
-          </div>
-          <div class='footer-link-items'>
-            {/* <h6>Contact</h6> */}
             <Link
               to='/Contacts'
             >
@@ -46,11 +35,10 @@ function Footer() {
             </Link>
           </div>
           <div class='footer-link-items'>
-            {/* <h6>About</h6> */}
             <Link
               to='/About'
             >
-              About
+              About 
             </Link>
           </div>
       </div>

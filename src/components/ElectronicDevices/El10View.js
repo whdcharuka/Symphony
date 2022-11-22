@@ -11,7 +11,7 @@ export default function Form() {
   return (
     <>
     <div className='cards'>
-      <h1>Wiper bush caravan</h1>
+      <h1></h1>
         <div className='cards__container'>
           <div className='cards__wrapper'>
             <ul className='cards__items'>

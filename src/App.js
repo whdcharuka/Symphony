@@ -1,5 +1,6 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import './App.css';
 import Home from './components/pages/Home';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
@@ -316,6 +317,7 @@ function App() {
           <Route path='/Ty9' component={Ty9} />
           <Route path='/Ty10' component={Ty10} />
         </Switch>
+        <Footer />
       </Router>
     </>
   );

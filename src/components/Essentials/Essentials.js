@@ -2,6 +2,7 @@ import React from 'react';
 import '../../App.css';
 import Categories from '../pages/Categories';
 import EsItem from './EsItem';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
                <EsItem />
             </div>
         </div>
+        <Footer />
       </section>
     </>
   );

@@ -3,6 +3,7 @@ import '../../App.css';
 import Categories from '../pages/Categories';
 import Es3View from './Es3View';
 import Des3 from './Des3';
+import Footer from '../Footer';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
                <Des3/>
             </div>
         </div>
+        <Footer />
       </section>
     </>
   );

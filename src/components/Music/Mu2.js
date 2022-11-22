@@ -3,7 +3,6 @@ import '../../App.css';
 import Categories from '../pages/Categories';
 import Mu2View from './Mu2View';
 import Des2 from './Des2';
-import Footer from '../Footer';
 
 function Home() {
   return (
@@ -18,7 +17,6 @@ function Home() {
                <Des2/>
             </div>
         </div>
-        <Footer />
       </section>
     </>
   );

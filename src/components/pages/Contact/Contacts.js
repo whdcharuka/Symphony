@@ -1,13 +1,19 @@
 import React from 'react';
 import '../../../App.css';
 import ContactItem from './ContactItem';
-import Footer from '../../Footer/Footer';
+import Cont from './Cont';
 
 export default function Products() {
   return (
     <>
-      <ContactItem />
-      <Footer />
+    <section>
+        <div className='container d_flex'>
+          <ContactItem />
+            <div className='contact_box'>
+              <Cont />
+            </div>
+        </div>
+      </section>
     </>
   );
 }

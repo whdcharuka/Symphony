@@ -1,13 +1,22 @@
 import React from 'react';
 import '../../../App.css';
 import ServicesItem from './ServicesItem';
-import Footer from '../../Footer/Footer';
+import Ser from './Ser';
+// import Categories from './Categories';
+// import CardsHome from './CardsHome';
 
 export default function Products() {
   return (
     <>
-      <ServicesItem />
-      <Footer />
+    {/* <Categories /> */}
+      <div className='container d_flex'>
+        
+        <ServicesItem />
+            <div className='contact_box'>
+              <Ser />
+            </div>
+        </div>
+        {/* <CardsHome /> */}
     </>
   );
 }

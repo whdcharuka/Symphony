@@ -47,13 +47,16 @@ export default function Form() {
 
                   </div>
                         <div className="col-2">
-                    <img src='images/photo.jpg' />
-                  </div>
+                            <img src='images/istockphoto.jpg' />
+                        </div>
               </div>
           </section>
 
-          <h1>Don't have an account? <Link to='/register'>  Register </Link> </h1>
-
+          <div className="register">
+                <div className="col-3">
+                      <span>Login to your account<Link to='/register' className='abc'>  Register </Link></span>
+                  </div>
+              </div>
         </section>
   )
 }

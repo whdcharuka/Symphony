@@ -76,10 +76,14 @@
   }
   
   .d{
-    justify-content: center;
     border-radius: 10px;
   }
   
+  .e{
+    border-radius: 10px;
+    height: 100px;
+  }
+
   .share .col-1{
     margin: auto;
     padding: 3em 0;
@@ -97,6 +101,435 @@
   
   @media screen and (min-width: 860px)  {
     .share .col-2 img{
+      display: initial;
+    }
+  }
+
+/* Contact us */
+  .cont{  
+    max-width: 600px;
+    width: 100vw;
+    display:flex;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 170px;
+    margin-right: 150px;
+    margin-top: 10px;
+  }
+ 
+  .h5{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  .p{
+    text-align: left;
+    justify-content: left;
+  }
+
+  .file{
+    color: transparent;
+    box-sizing: border-box;
+    padding: 15px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: 1px solid #adb5bd;
+    border-radius: 10px;
+    margin: 1em auto;
+    margin-right: 6px;
+  }
+
+  .cont span{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+    justify-content: center;
+  }
+  
+  #form >  input, .btn{
+    border: 1px solid #e9ecef;
+    padding: .9em 1em;
+  }
+  
+  #form > input:focus{
+    outline: none;
+  }
+  
+  #form > .btn{
+    background-color: #000000;
+    color: #e9ecef;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .flex{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .d{
+    border-radius: 10px;
+  }
+  
+  .e{
+    border-radius: 10px;
+    height: 100px;
+  }
+
+  .cont .col-1{
+    margin: auto;
+    padding: 3em 0;
+  }
+  
+  .cont .col-2 img{
+    width: 700px;
+    height: 100%;
+    object-fit: cover;
+    align-self: flex-end;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+  }
+  
+  @media screen and (min-width: 860px)  {
+    .cont .col-2 img{
+      display: initial;
+    }
+  }
+  
+  .details{
+    font-size: medium;
+    margin-top: 10px;
+  }
+
+  /* About us */
+  .aboutus{  
+    max-width: 600px;
+    width: 100vw;
+    display:flex;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 170px;
+    margin-right: 150px;
+    margin-top: 10px;
+  }
+ 
+  .h5{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  .p{
+    text-align: left;
+    justify-content: left;
+  }
+
+  .file{
+    color: transparent;
+    box-sizing: border-box;
+    padding: 15px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: 1px solid #adb5bd;
+    border-radius: 10px;
+    margin: 1em auto;
+    margin-right: 6px;
+  }
+
+  .aboutus span{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+    justify-content: center;
+  }
+  
+  #form >  input, .btn{
+    border: 1px solid #e9ecef;
+    padding: .9em 1em;
+  }
+  
+  #form > input:focus{
+    outline: none;
+  }
+  
+  #form > .btn{
+    background-color: #000000;
+    color: #e9ecef;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .flex{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .d{
+    border-radius: 10px;
+  }
+  
+  .e{
+    border-radius: 10px;
+    height: 100px;
+  }
+
+  .aboutus .col-1{
+    margin: auto;
+    padding: 3em 0;
+  }
+  
+  .aboutus .col-2 img{
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+    align-self: flex-end;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+  }
+  
+  @media screen and (min-width: 860px)  {
+    .aboutus .col-2 img{
+      display: initial;
+    }
+  }
+  
+  /* About us */
+  .mklp{  
+    max-width: 600px;
+    width: 100px;
+    display:flex;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 10px;
+  }
+ 
+  .h5{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  .p{
+    text-align: left;
+    justify-content: left;
+  }
+
+  .file{
+    color: transparent;
+    box-sizing: border-box;
+    padding: 15px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: 1px solid #adb5bd;
+    border-radius: 10px;
+    margin: 1em auto;
+    margin-right: 6px;
+  }
+
+  .mklp span{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+    justify-content: center;
+  }
+  
+  #form >  input, .btn{
+    border: 1px solid #e9ecef;
+    padding: .9em 1em;
+  }
+  
+  #form > input:focus{
+    outline: none;
+  }
+  
+  #form > .btn{
+    background-color: #000000;
+    color: #e9ecef;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .flex{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .d{
+    border-radius: 10px;
+  }
+  
+  .e{
+    border-radius: 10px;
+    height: 100px;
+  }
+
+  .mklp .col-1{
+    margin: auto;
+    padding: 3em 0;
+  }
+  
+  .mklp .col-2 img{
+    width: 700px;
+    height: 350px;
+    object-fit: cover;
+    align-self: flex-end;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+  }
+  
+  @media screen and (min-width: 860px)  {
+    .mklp .col-2 img{
+      display: initial;
+    }
+  }
+
+  /* Services */
+  .bnm{  
+    max-width: 600px;
+    width: 100px;
+    display:flex;
+    border-radius: 10px;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 150px;
+    margin-top: 10px;
+  }
+ 
+  .h5{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  .p{
+    text-align: left;
+    justify-content: left;
+  }
+
+  .file{
+    color: transparent;
+    box-sizing: border-box;
+    padding: 15px 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    height: 100px;
+    width: 100px;
+    position: relative;
+    border: 1px solid #adb5bd;
+    border-radius: 10px;
+    margin: 1em auto;
+    margin-right: 6px;
+  }
+
+  .bnm span{
+    color: #adb5bd;
+    justify-content: center;
+  }
+  
+  #form{
+    max-width: 320px;
+    width: 100vw;
+    margin: 2em auto;
+    justify-content: center;
+  }
+  
+  #form >  input, .btn{
+    border: 1px solid #e9ecef;
+    padding: .9em 1em;
+  }
+  
+  #form > input:focus{
+    outline: none;
+  }
+  
+  #form > .btn{
+    background-color: #000000;
+    color: #e9ecef;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .flex{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+  }
+  
+  .flex-col{
+    flex-direction: column;
+  }
+  
+  .d{
+    border-radius: 10px;
+  }
+  
+  .e{
+    border-radius: 10px;
+    height: 100px;
+  }
+
+  .bnm .col-1{
+    margin: auto;
+    padding: 3em 0;
+  }
+  
+  .bnm .col-2 img{
+    width: 900px;
+    height: 500px;
+    object-fit: cover;
+    align-self: flex-end;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    display: none;
+  }
+  
+  @media screen and (min-width: 860px)  {
+    .bnm .col-2 img{
       display: initial;
     }
   }

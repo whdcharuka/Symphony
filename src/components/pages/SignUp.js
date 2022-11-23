@@ -15,17 +15,17 @@ export default function Form() {
                   <hr></hr>
                   <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
                     
-                    <label>Brand</label>
+                    {/* <label>Brand</label> */}
                       <input type="text" className='d' {...register("brand")} placeholder='Brand' />
                     
-                    <label>Model</label>  
+                    {/* <label>Model</label>   */}
                       <input type="text" className='d' {...register("model")} placeholder='Model' />
                     
-                    <label>Tittle</label>
+                    {/* <label>Tittle</label> */}
                       <input type="text" className='d' {...register("tittle")} placeholder='Tittle' />
                     
-                    <label>Description</label>  
-                      <input type="text" className='d' {...register("description")} placeholder='Description' />
+                    {/* <label>Description</label>   */}
+                      <input type="text" className='e' {...register("description")} placeholder='Description' />
 
                     <hr></hr>
                     <label>Add photo</label> 
@@ -42,13 +42,13 @@ export default function Form() {
                     
                     <hr></hr>
                     <h4>Contact details</h4>
-                    <label>Name</label>
+                    {/* <label>Name</label> */}
                       <input type="text" className='d' {...register("name")} placeholder='Name' />
                     
-                    <label>Email</label>
+                    {/* <label>Email</label> */}
                       <input type="text" className='d' {...register("email")} placeholder='Email' />
                     
-                    <label>Phone Number</label>
+                    {/* <label>Phone Number</label> */}
                       <input type="text" className='d' {...register("number")} placeholder='Phone Number' />
                       {errors.mobile?.type === "required" && "Mobile Number is required"}
                       {errors.mobile?.type === "maxLength" && "Max Length Exceed"}

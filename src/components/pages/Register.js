@@ -27,7 +27,7 @@ export default function Form() {
                   </form>
             </div>
               <div className="col-2">
-                  <img src='images/students.jpg' />
+                  <img src='images/istock.jpg' />
               </div>
           </div>
         </section>

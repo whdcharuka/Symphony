@@ -29,16 +29,16 @@ export default function Form() {
               text='Engine Bay'
               path='/Vp3'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Vehicalparts/fuel filter.jpg'
               text='Fuel Filter'
               path='/Vp4'
-            />
-            <CardItem
+            /> */}
+            {/* <CardItem
               src='images/Vehicalparts/head light.jpg'
               text='Head Light'
               path='/Vp5'
-            />
+            /> */}
           </ul> 
           <ul className='cards__items'>
             <CardItem
@@ -56,16 +56,16 @@ export default function Form() {
               text='Oil Filter'
               path='/Vp8'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Vehicalparts/wiper blades.jpg'
               text='Wiper Blades'
               path='/Vp9'
-            />
-            <CardItem
+            /> */}
+            {/* <CardItem
               src='images/Vehicalparts/wiper bush caravan.jpg'
               text='Wiper bush caravan'
               path='/Vp10'
-            />
+            /> */}
           </ul>       
           </div>
         </div>

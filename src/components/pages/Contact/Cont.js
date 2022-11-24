@@ -15,15 +15,15 @@ export default function Form() {
           <img src='images/contactus.png' />
         </div>
             <form id='form' className='flex flex-col'>   
-              <h4>Call or email us</h4>
-                <span>Please get in touch with us and we will get back to you as soon as possible.</span>
-                  <span>
+              <h5>Call or email us</h5>
+                <h6 className='emailus'>Please get in touch with us and we will get back to you as soon as possible.</h6>
+                  <h6 className='emailus'>
                       9am - 6pm on weekdays<br></br>
                       8am - 5pm on weekends
-                  </span>
+                  </h6>
               <div className='contactus'>
-                <p>Email Us<br></br><img src='images/email.png'></img>  <span class="details">symphony@gmail.com</span>  <br></br><br></br>
-                Call us<br></br><img src='images/phone-call.png'></img>  <span class="details">+94 2256 5987</span><br></br></p>
+                <p><img src='images/email.png'></img>  <h6 className='emailus'>symphony@gmail.com</h6><br></br>
+                   <img src='images/phone-call.png'></img>  <h6 className='emailus'>+94 2256 5987</h6><br></br></p>
               </div>
             </form>
         </div>

@@ -20,12 +20,16 @@
 }
 
 .h5{
-  color: #adb5bd;
+  color: grey;
   justify-content: center;
 }
 
+.emailus{
+  color: grey;
+}
+
 .register span{
-  color: #adb5bd;
+  color: grey;
   justify-content: center;
 }
 

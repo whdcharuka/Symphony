@@ -29,7 +29,7 @@ export default function Form() {
               text=''
               path='/An3'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Animals/.jpg'
               text='r'
               path='/An4'
@@ -38,7 +38,7 @@ export default function Form() {
               src='images/Animals/.jpg'
               text=''
               path='/An5'
-            />
+            /> */}
           </ul> 
           <ul className='cards__items'>
             <CardItem
@@ -56,7 +56,7 @@ export default function Form() {
               text=''
               path='/An8'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Animals/.jpg'
               text=''
               path='/An9'
@@ -65,7 +65,7 @@ export default function Form() {
               src='images/Animals/.jpg'
               text=''
               path='/An10'
-            />
+            /> */}
           </ul>       
           </div>
         </div>

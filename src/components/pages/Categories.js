@@ -7,62 +7,62 @@ const Categories = () => {
     {
       path:"/Vehicalparts",
       cateImg: "./images/Categories/car.png",
-      cateName: "Vehical Parts",
+      cateName: "VEHICAL PARTS",
     },
     {
       path:"/ElectronicDevices",
       cateImg: "./images/Categories/smartphone (2).png",
-      cateName: "Electronics",
+      cateName: "ELECTRONICS",
     },
     {
       path:"/HomeGarden",
       cateImg: "./images/Categories/house.png",
-      cateName: "Home & Garden",
+      cateName: "HOME & GARDEN",
     }, 
     {
       path:"Animals",
       cateImg: "./images/Categories/cat.png",
-      cateName: "Pets",
+      cateName: "PETS",
     },
     {
       path:"/Toys",
       cateImg: "./images/Categories/toys.png",
-      cateName: "Toys",
+      cateName: "TOYS",
     },
     {
       path:"/HobbySport",
       cateImg: "./images/Categories/sports.png",
-      cateName: "Hobby & Sport",
+      cateName: "HOBBY & SPORT",
     },
     {
       path:"/Foods",
       cateImg: "./images/Categories/burger.png",
-      cateName: "Foods",
+      cateName: "FOODS",
     },
     {
       path:"/Education",
       cateImg: "./images/Categories/education.png",
-      cateName: "Education",
+      cateName: "EDUCATION",
     },
     {
       path:"/Essentials",
       cateImg: "./images/Categories/essential-oil.png",
-      cateName: "Essentials",          
+      cateName: "ESSENTIALS",          
     },
     {
       path:"/FashionBeauty",
       cateImg: "./images/Categories/dress.png",
-      cateName: "Fashion",
+      cateName: "FASHION",
     },
     {
       path:"/Gifts",
       cateImg: "./images/Categories/giftbox.png",
-      cateName: "Gifts",
+      cateName: "GIFTS",
     },
     {
       path:"/Music",
       cateImg: "./images/Categories/guitar.png",
-      cateName: "Music",
+      cateName: "MUSIC",
     },
   ]
 

@@ -10,7 +10,7 @@ export default function Form() {
     
   return (
     <div className='cards'>
-    <h6>Toys</h6>
+    <h6>TOYS</h6>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -34,11 +34,11 @@ export default function Form() {
               text=''
               path='/Ty4'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Toys/.jpg'
               text=''
               path='/Ty5'
-            />
+            /> */}
           </ul> 
           <ul className='cards__items'>
             <CardItem
@@ -61,11 +61,11 @@ export default function Form() {
               text=''
               path='/Ty9'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Toys/.jpg'
               text=''
               path='/Ty10'
-            />
+            /> */}
           </ul>       
           </div>
         </div>

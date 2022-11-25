@@ -1,28 +1,28 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import './Categories.css';
+import '../pages/SubCategories.css';
 
 const Categories = () => {
   const data = [
     {
-      path:"/Engine",
-      cateName: "ENGINE",
+      path:"/",
+      cateName: "TEDDY BEAR",
     },
     {
       path:"/Battery",
-      cateName: "BATTERY",
+      cateName: "BICYCLES",
     },
     {
       path:"/Wheel",
-      cateName: "WHEEL",
+      cateName: "CAR",
     }, 
     {
       path:"Fuel Tank",
-      cateName: "FUEL TANK",
+      cateName: "DOLLS",
     },
     {
       path:"/Windscreen",
-      cateName: "WINDSCREEN",
+      cateName: "ANIMAL TOYS",
     },
     // {
     //   path:"/Windshield wipers",

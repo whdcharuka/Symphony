@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import Categories from '../pages/Categories';
-import VCategories from './VCategories';
+import VpCategories from './VpCategories';
 import VpItem from './VpItem';
 
 function Home() {
@@ -10,7 +10,7 @@ function Home() {
       <section>
         <div className='container d_flex'>
           <Categories />
-          <VCategories />
+          <VpCategories />
             <div className='qwe'>
                <VpItem />
             </div>

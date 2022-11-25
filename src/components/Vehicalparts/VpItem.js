@@ -2,6 +2,7 @@ import React from 'react'
 import '../pages/Login.css';
 import { useForm } from 'react-hook-form';
 import CardItem from '../CardItem';
+import { Link } from 'react-router-dom';
 
 export default function Form() {
 
@@ -10,7 +11,10 @@ export default function Form() {
     
   return (
     <div className='cards'>
-    <h6>Vehical Parts</h6>
+    <h6>VEHICAL PARTS<Link to='/All'><button className='btn1'>All</button></Link>
+      {/* <Link to='/Instock'><button className='btn2'>IN STOCK</button></Link>
+      <Link to='/Outstock'><button className='btn3'>OUT OF STOCK</button></Link> */}
+    </h6>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -29,11 +33,11 @@ export default function Form() {
               text='Engine Bay'
               path='/Vp3'
             />
-            {/* <CardItem
+            <CardItem
               src='images/Vehicalparts/fuel filter.jpg'
               text='Fuel Filter'
               path='/Vp4'
-            /> */}
+            />
             {/* <CardItem
               src='images/Vehicalparts/head light.jpg'
               text='Head Light'
@@ -56,11 +60,11 @@ export default function Form() {
               text='Oil Filter'
               path='/Vp8'
             />
-            {/* <CardItem
+            <CardItem
               src='images/Vehicalparts/wiper blades.jpg'
               text='Wiper Blades'
               path='/Vp9'
-            /> */}
+            />
             {/* <CardItem
               src='images/Vehicalparts/wiper bush caravan.jpg'
               text='Wiper bush caravan'

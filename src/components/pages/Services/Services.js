@@ -14,10 +14,10 @@ export default function Products() {
         
         {/* <ServicesItem /> */}
         {/* < Wrapper /> */}
-            <div className='contact_box1'>
+            {/* <div className='contact_box1'> */}
             < Wrapper />
-              <Ser />
-            </div>
+              {/* <Ser /> */}
+            {/* </div> */}
         {/* </div> */}
         {/* <CardsHome /> */}
     </>

@@ -74,29 +74,8 @@ function CardsHome() {
               path='/Music'
             />
           </ul>
-
-  <div className='cards'>
-    <div className='cards__container'></div>
-      <h1>How it works?</h1>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/round-account-button-with-user-inside.png'
-              text='Create free account in SLTsymphony.lk easily using Facebook or Google'             
-            />
-            <CardItem
-              src='images/pencil.png'
-              text='Post ads about any items or services you need to share online'
-            />
-            <CardItem
-              src='images/free.png'
-              text='Select the best item you received and start share your items or services'
-            />
-            </ul>
-          </div>
         </div>
       </div>
-    </div>
   </div>
   );
 }

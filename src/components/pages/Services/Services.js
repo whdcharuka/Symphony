@@ -9,17 +9,13 @@ import Wrapper from "../../wrapper/Wrapper"
 export default function Products() {
   return (
     <>
-    {/* <Categories /> */}
-      {/* <div className='container d_flex'> */}
-        
-        {/* <ServicesItem /> */}
-        {/* < Wrapper /> */}
-            {/* <div className='contact_box1'> */}
-            < Wrapper />
-              {/* <Ser /> */}
-            {/* </div> */}
-        {/* </div> */}
-        {/* <CardsHome /> */}
+      <div className='container d_flex'>
+        <ServicesItem />
+            <div className='contact_box1'>
+              <Ser />
+            </div>
+      </div>
+      < Wrapper />
     </>
   );
 }

@@ -98,3 +98,34 @@
     display: initial;
   }
 }
+
+.btn1{
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border-color: black;
+  background-color: #f3f5f9;
+}
+
+.btn2{
+  height: 30px;
+  width: 90px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border-color: grey;
+  background-color: transparent;
+
+}
+
+.btn3{
+  height: 30px;
+  width: 120px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-radius: 10px;
+  border-color: grey;
+  background-color: transparent;
+
+}

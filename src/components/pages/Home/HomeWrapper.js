@@ -26,7 +26,7 @@ const Wrapper = () => {
   ]
   return (
     <>
-      <section className='wrapper hwbackground'>
+      <section className='wrapper wbackground'>
       <h1 class='how'>How It Works?</h1>
         <div className='wcontainer grid2'>
           {data.map((val, index) => {

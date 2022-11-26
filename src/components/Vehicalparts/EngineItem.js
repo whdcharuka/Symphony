@@ -13,8 +13,8 @@ export default function Form() {
   return (
     <div className='cardsitem'>
     <h6>Vehical Parts<Link to='/All'><button className='btn1'>All</button></Link>
-      <Link to='/Instock'><button className='btn2'>IN STOCK</button></Link>
-      <Link to='/Outstock'><button className='btn3'>OUT OF STOCK</button></Link>
+      {/* <Link to='/Instock'><button className='btn2'>IN STOCK</button></Link>
+      <Link to='/Outstock'><button className='btn3'>OUT OF STOCK</button></Link> */}
     </h6>
       <div className='cardsitem__container'>
         <div className='cardsitem__wrapper'>

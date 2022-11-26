@@ -3,6 +3,7 @@ import '../../App.css';
 import Categories from '../pages/Categories';
 import VpCategories from './VpCategories';
 import VpItem from './VpItem';
+import Wrapper from './Wrapper';
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
           <VpCategories />
             <div className='qwe'>
                <VpItem />
+               {/* <Wrapper /> */}
             </div>
         </div>
       </section>

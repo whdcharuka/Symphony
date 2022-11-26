@@ -2,6 +2,7 @@ import React from 'react'
 import '../pages/Login.css';
 import { useForm } from 'react-hook-form';
 import CardItem from '../CardItem';
+import { Link } from 'react-router-dom';
 
 export default function Form() {
 
@@ -10,7 +11,7 @@ export default function Form() {
     
   return (
     <div className='cards'>
-    <h6>TOYS</h6>
+    <h6>TOYS<Link to='/All'><button className='btn1'>All</button></Link></h6>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

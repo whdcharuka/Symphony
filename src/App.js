@@ -27,6 +27,7 @@ import Vp10 from './components/Vehicalparts/Vp10';
 import Instock from './components/Vehicalparts/Instock';
 import Outstock from './components/Vehicalparts/Outstock';
 import Engine from './components/Vehicalparts/Engine';
+import All from './components/Vehicalparts/All';
 
 import ElectronicDevices from './components/ElectronicDevices/ElectronicDevices';
 import El1 from './components/ElectronicDevices/El1';
@@ -190,6 +191,7 @@ function App() {
           <Route path='/Instock' component={Instock} />
           <Route path='/Outstock' component={Outstock} />
           <Route path='/Engine' component={Engine} />
+          <Route path='/All' component={All} />
 
           <Route path='/ElectronicDevices' component={ElectronicDevices} />
           <Route path='/El1' component={El1} />

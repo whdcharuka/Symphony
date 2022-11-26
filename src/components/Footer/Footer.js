@@ -16,14 +16,14 @@ function Footer() {
             <Link
               to='/'
             >
-              Home
+              HOME
             </Link>
           </div>
           <div class='footer-link-items'>
             <Link
               to='/Services'
             >
-              Services
+              SERVICES
             </Link>
           </div>
         </div>
@@ -31,14 +31,14 @@ function Footer() {
             <Link
               to='/Contacts'
             >
-              Contact
+              CONTACT
             </Link>
           </div>
           <div class='footer-link-items'>
             <Link
               to='/About'
             >
-              About 
+              ABOUT
             </Link>
           </div>
       </div>

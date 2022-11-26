@@ -2,6 +2,7 @@ import React from 'react'
 import '../pages/Login.css';
 import { useForm } from 'react-hook-form';
 import CardItem from '../CardItem';
+import { Link } from 'react-router-dom';
 
 export default function Form() {
 
@@ -10,7 +11,7 @@ export default function Form() {
     
   return (
     <div className='cards'>
-    <h6>Animals</h6>
+    <h6>ANIMALS<Link to='/All'><button className='btn1'>All</button></Link></h6>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -29,12 +30,12 @@ export default function Form() {
               text=''
               path='/An3'
             />
-            {/* <CardItem
+            <CardItem
               src='images/Animals/.jpg'
-              text='r'
+              text=''
               path='/An4'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Animals/.jpg'
               text=''
               path='/An5'
@@ -56,12 +57,12 @@ export default function Form() {
               text=''
               path='/An8'
             />
-            {/* <CardItem
+            <CardItem
               src='images/Animals/.jpg'
               text=''
               path='/An9'
             />
-            <CardItem
+            {/* <CardItem
               src='images/Animals/.jpg'
               text=''
               path='/An10'

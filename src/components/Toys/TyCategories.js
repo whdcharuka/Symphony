@@ -9,19 +9,19 @@ const Categories = () => {
       cateName: "TEDDY BEAR",
     },
     {
-      path:"/Battery",
+      path:"/",
       cateName: "BICYCLES",
     },
     {
-      path:"/Wheel",
+      path:"/",
       cateName: "CAR",
     }, 
     {
-      path:"Fuel Tank",
+      path:"/",
       cateName: "DOLLS",
     },
     {
-      path:"/Windscreen",
+      path:"/",
       cateName: "ANIMAL TOYS",
     },
     // {

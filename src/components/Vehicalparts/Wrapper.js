@@ -1,5 +1,5 @@
 import React from "react"
-import "./rapper.css"
+import "./VpWrapper.css"
 import { Link } from "react-router-dom"
 
 const Wrapper = () => {

@@ -60,7 +60,8 @@
 
 .btn--medium {
   padding: 8px 20px;
-  font-size: 18px;
+  font-size: 15px;
+  border-radius: 8px;
 }
 
 .btn--large {

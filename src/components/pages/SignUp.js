@@ -29,16 +29,16 @@ export default function Form() {
 
                     <hr></hr>
                     <label>Add photo</label> 
-                    <div className="wrapper">
+                    <div>
                       <input type="file" className="file"></input>
-                      <input type="file" className="file"></input>
-                      <input type="file" className="file"></input>
+                      {/* <input type="file" className="file"></input>
+                      <input type="file" className="file"></input> */}
                     </div>
-                    <div className="wrapper">
+                    {/* <div className="wrapper">
                       <input type="file" className="file"></input>
                       <input type="file" className="file"></input>
                       <input type="file" className="file"></input>
-                    </div>
+                    </div> */}
                     
                     <hr></hr>
                     <h4>Contact details</h4>

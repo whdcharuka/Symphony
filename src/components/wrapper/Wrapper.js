@@ -6,22 +6,22 @@ const Wrapper = () => {
     {
       cover: <i class="fa fa-truck" aria-hidden="true"></i>,
       title: "Fast Delivery",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      decs: "We provide lslandwide delivery within 4-7 days.",
     },
     {
       cover: <i class="fa fa-archive" aria-hidden="true"></i>,
       title: "Quality Product",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      decs: "We sell genuine products with company authorized.",
     },
     {
       cover: <i class="fa fa-thumbs-up" aria-hidden="true"></i>,
       title: "Shop With Confidence ",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      decs: "Confident and active online services.",
     },
     {
       cover: <i class="fa fa-headphones" aria-hidden="true"></i>,
       title: "24/7 Support ",
-      decs: "We offer competitive prices on our 100 million plus product any range.",
+      decs: "Call our hotlines during office hours for any questions or inquiries.",
     },
   ]
   return (

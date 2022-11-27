@@ -1,16 +1,14 @@
 import React from 'react';
 import '../../App.css';
-import Categories from '../pages/Categories';
 import TyItem from './TyItem';
-import TyCategories from './TyCategories';
+import Home1 from "./Home1"
 
 function Home() {
   return (
     <>
       <section>
+      <Home1/>
         <div className='container d_flex'>
-          <Categories />
-          <TyCategories />
             <div className='qwe'>
                <TyItem />
             </div>

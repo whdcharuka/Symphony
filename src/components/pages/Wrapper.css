@@ -1,5 +1,36 @@
 .wrapper {
   text-align: center;
+  width: 75%;
+  align-self: auto;
+}
+
+.how{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.how1{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
+.wrapper123 {
+  text-align: center;
+  width: 80%;
+}
+
+.wbackground123 {
+  padding: 80px 0;
+  margin-bottom: 10px;
+  margin-left: 150px;
+
+}
+
+.wbackground124 {
+  padding: 80px 0;
+  margin-bottom: 100px;
 }
 
 .wrapper .img {
@@ -31,14 +62,23 @@
 }
 
 .wbackground {
-  background: #f6f9fc;
+  background: #ffffff;
   padding: 80px 0;
   margin-bottom: 100px;
+  align-items: center;
 }
 .wcontainer {
   max-width: 90%;
   margin: auto;
+  align-items: center;
 }
+
+.wcontainer1 {
+  max-width: 150px;
+  margin: auto;
+  align-items: center;
+}
+
 .wd_flex {
   display: flex;
   justify-content: space-between;
@@ -169,12 +209,13 @@ button {
 /*---------product-----------*/
 .wproduct {
   background: #fff;
-  padding: 20px;
-  position: relative;
+  padding: 50px;
+  position: center;
   border-radius: 10px;
   box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
   margin: 10px;
   height: 300px;
+  align-items: center;
 }
 
 .vpproduct {
@@ -182,8 +223,8 @@ button {
   padding: 20px;
   position: relative;
   border-radius: 10px;
-  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
-  margin: 10px;
+  box-shadow: rgb(3 0 71 / 30%) 0px 1px 3px;
+  margin: 20px;
   height: 600px;
 }
 
@@ -283,6 +324,7 @@ button {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 10px;
+  margin-left: -10px;
 }
 
 .grid3 {

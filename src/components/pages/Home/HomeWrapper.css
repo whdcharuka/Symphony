@@ -1,5 +1,7 @@
 .wrapper {
   text-align: center;
+  width: 75%;
+  margin-left: 190px;
 }
 
 .wrapper .img {
@@ -34,47 +36,59 @@
   padding: 80px 0;
   margin-top: -150px;
 }
+
 .wcontainer {
   max-width: 70%;
   margin: auto;
 }
+
 .wd_flex {
   display: flex;
   justify-content: space-between;
 }
+
 .wc_flex {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .wf_flex {
   display: flex;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 li {
   list-style: none;
 }
+
 .wuppercase {
   text-transform: uppercase;
 }
+
 .wcapitalize {
   text-transform: capitalize;
 }
+
 .wRText {
   text-align-last: right;
 }
+
 input,
 button {
   border: none;
   outline: none;
   background-color: none;
 }
+
 .wrow {
   width: 50%;
 }
+
 .wicon-circle {
   width: 50px;
   height: 50px;
@@ -84,6 +98,7 @@ button {
   text-align: center;
   border-radius: 50%;
 }
+
 .wboxShadow {
   box-shadow: rgb(43 52 69 / 10%) 16px 16px 16px;
 }
@@ -92,6 +107,7 @@ button {
 .wcontentWidth {
   width: 77%;
 }
+
 .wcategory {
   box-shadow: rgba(0, 0, 0, 0.1) 16px 16px 16px;
   background-color: #fff;
@@ -101,20 +117,24 @@ button {
   border-radius: 5px;
   margin-top: 5px;
 }
+
 .wcategory img {
   width: 30px;
   height: 30px;
   margin-top: 10px;
   object-fit: contain;
 }
+
 .wcategory span {
   margin: 10px 20px;
   text-transform: capitalize;
 }
+
 .wcategory .box {
   transition: 0.5s;
   padding: 0 20px;
 }
+
 .wcategory .box:hover {
   background-color: #ffe1e6;
   cursor: pointer;
@@ -125,24 +145,11 @@ button {
 .wtop {
   margin-top: 80px;
 }
+
 .wmtop {
   margin-top: 40px;
 }
-.wheading i {
-  color: #e94560;
-  margin: 10px;
-}
-.wdiscount {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background: #e94560;
-  padding: 3px 10px;
-  font-size: 12px;
-  border-radius: 50px;
-  color: #fff;
-  margin: 10px;
-}
+
 /*---------product-----------*/
 .wproduct {
   background: #fff;
@@ -153,36 +160,13 @@ button {
   margin: 10px;
   height: 300px;
 }
+
 .wproduct h3 {
   font-weight: 400;
   font-size: 17px;
   margin-top: 30px;
 }
-.wproduct .rate i {
-  font-size: 15px;
-  color: #ffcd4e;
-  margin: 5px 5px 5px 0;
-}
-.wproduct .price {
-  display: flex;
-  justify-content: space-between;
-  color: #e94560;
-}
-.wprice button {
-  background: none;
-  color: #e94560;
-  font-size: 20px;
-  transition: 0.5s;
-  border: 1px solid rgb(3 0 71 / 9%);
-  width: 35px;
-  height: 35px;
-  border-radius: 5px;
-}
-.wprice button:hover {
-  cursor: pointer;
-  background-color: #e94560;
-  color: #fff;
-}
+
 .wproduct-like {
   position: absolute;
   top: 0;
@@ -191,37 +175,16 @@ button {
   opacity: 0;
   transition: 0.5s;
 }
-.wproduct-like label {
-  background-color: #0f3460;
-  padding: 1px 10px;
-  font-size: 12px;
-  color: white;
-  border-radius: 50px;
-}
+
 .wproduct-like i {
   font-size: 20px;
   margin: 10px 3px;
 }
+
 .wproduct:hover .product-like {
   opacity: 1;
 }
-/*---------product-----------*/
 
-/*----- control btn -------*/
-/*----- heading -------*/
-.heading .heading-left i {
-  font-size: 30px;
-}
-.heading .heading-left h2 {
-  font-size: 25px;
-  margin: 5px;
-}
-.heading .heading-right i,
-.heading .heading-right {
-  text-align: right;
-  color: grey;
-}
-/*----- heading -------*/
 .grid {
   display: grid;
   grid-template-columns: repeat(6, 1fr);

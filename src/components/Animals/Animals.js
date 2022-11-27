@@ -1,16 +1,14 @@
 import React from 'react';
 import '../../App.css';
-import Categories from '../pages/Categories';
 import AnItem from './AnItem';
-import AnCategories from './AnCategories';
+import Home1 from "./Home1"
 
 function Home() {
   return (
     <>
       <section>
+      <Home1/>
         <div className='container d_flex'>
-          <Categories />
-          <AnCategories />
             <div className='qwe'>
                <AnItem />
             </div>

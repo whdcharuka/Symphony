@@ -39,6 +39,11 @@
   display: flex;
 }
 
+.g_flex {
+  display: flex;
+  margin-left: 10px;
+}
+
 .c_flex {
   display: flex;
   justify-content: space-between;
@@ -79,11 +84,6 @@
 .category .box {
   transition: 0.5s;
   padding: 0 20px;
-}
-
-.category .box:hover {
-  background-color: #ffe1e6;
-  cursor: pointer;
 }
 
 .description {
@@ -131,7 +131,22 @@
   justify-content: center;
   font-size: 40px;
   margin-top: 1px;
-  margin-left: 20px;
+}
+
+.qwe1 {
+  display: flex;
+  align-items: right;
+  justify-content: center;
+  font-size: 40px;
+  margin-top: 1px;
+  margin-left: -130px;
+}
+
+.qwe3 {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 50px;
+  margin-bottom: -50px;
 }
 
 .contact_box{
@@ -149,4 +164,22 @@
   font-size: 15px;
   margin-left: -450px;
   margin-bottom: 10px;
+}
+
+.category1 {
+  margin-top: 50px;
+  margin-bottom: -10px;
+}
+
+.category1 img {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+
+.grid5 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
 }

@@ -323,15 +323,15 @@
   }
   
   /* About us */
-  .mklp{  
-    max-width: 600px;
-    width: 100px;
-    display:flex;
-    border-radius: 10px;
-    background-color: white;
-    margin-left: 130px;
-    margin-right: 150px;
-    margin-top: 10px;
+  .mklp img{  
+    width: 550px;
+    height: 300px;
+    text-align: center;
+  }
+
+  .mklp {  
+    text-align: center;
+    margin-top: 50px;
   }
  
   .h5{

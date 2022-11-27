@@ -24,70 +24,78 @@ const Categories = () => {
       path:"/Windscreen",
       cateName: "WINDSCREEN",
     },
-    // {
-    //   path:"/Windshield wipers",
-    //   cateName: "Windshield wipers",
-    // },
-    // {
-    //   path:"/Seat belt",
-    //   cateName: "Seat belt",
-    // },
-    // {
-    //   path:"/Radiator",
-    //   cateName: "Radiator",
-    // },
-    // {
-    //   path:"/Gear Lever",
-    //   cateName: "Gear Lever",          
-    // },
-    // {
-    //   path:"/Muffler",
-    //   cateName: "Muffler",
-    // },
-    // {
-    //   path:"/Alternator",
-    //   cateName: "Alternator",
-    // },
-    // {
-    //   path:"/Front Axle",
-    //   cateName: "Front Axle",
-    // },
   ]
-
   return (
     <>
       <div className='vcategory'>
       <h3 className='types'>TYPES</h3>
         {data.map((value, index) => {
           return (
-            <Link to={value.path} className='abc'>
+            <Link to={value.path} >
               <div className='box f_flex1' key={index}>
               <i class="fa fa-square" aria-hidden="true"><span>{value.cateName}</span></i>
               </div>
             </Link>
           )
         })}
-        <br></br>
-        <h3 className='types'></h3>
-        <h3 className='types'>AVAILABILITY</h3>
-        
-            <Link to='/Instock' className='abc'>
-              <div className='box f_flex1'>
-              <i class="fa fa-square" aria-hidden="true"><span>IN STOCK</span></i>
-              </div>
-            </Link>
-
-            <Link to='/Outstock' className='abc'>
-              <div className='box f_flex1'>
-              <i class="fa fa-square" aria-hidden="true"><span>OUT  OF STOCK</span></i>
-              </div>
-            </Link>
-          
       </div> 
     </>
   )
 }
 
 export default Categories
+
+// import React from "react"
+// import { Link } from "react-router-dom"
+// import '../pages/Categories.css';
+
+// const Categories = () => {
+//   const data = [
+//     {
+//       path:"/Engine",
+//       cateImg: "./images/Categories/engineering.png",
+//       cateName: "ENGINE",
+//     },
+//     {
+//       path:"/Battery",
+//       cateImg: "./images/Categories/accumulator.png",
+//       cateName: "BATTERY",
+//     },
+//     {
+//       path:"/Wheel",
+//       cateImg: "./images/Categories/truck-wheel.png",
+//       cateName: "WHEEL",
+//     }, 
+//     {
+//       path:"./Fueltank",
+//       cateImg: "./images/Categories/oil-tank.png",
+//       cateName: "FUEL TANK",
+//     },
+//     {
+//       path:"/windscreen",
+//       cateImg: "./images/Categories/windscreen.png",
+//       cateName: "WINDSCREEN",
+//     },
+//   ]
+
+//   return (
+//     <>
+//       <div className='subcategory'>
+//         {data.map((value, index) => {
+//           return (
+//             <Link to={value.path} className='abc'>
+//               <div className='box f_flex' key={index}>
+//                   <img src={value.cateImg} alt='' />
+//                   <span>{value.cateName}</span>   
+//               </div>
+//             </Link>
+//           )
+//         })}
+//       </div>
+//     </>
+//   )
+// }
+
+// export default Categories
 
 

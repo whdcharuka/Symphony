@@ -1,20 +1,16 @@
 import React from 'react';
 import '../../App.css';
-import Categories from '../pages/Categories';
-import VpCategories from './VpCategories';
 import VpItem from './VpItem';
-import Wrapper from './Wrapper';
+import Home1 from "./Home1"
 
 function Home() {
   return (
     <>
       <section>
+      <Home1/>
         <div className='container d_flex'>
-          <Categories />
-          <VpCategories />
             <div className='qwe'>
                <VpItem />
-               {/* <Wrapper /> */}
             </div>
         </div>
       </section>

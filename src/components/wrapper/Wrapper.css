@@ -30,14 +30,10 @@
   color: grey;
 }
 
-.wbackground {
-  background: #f6f9fc;
-  padding: 80px 0;
-  margin-bottom: 100px;
-}
 .wcontainer {
   max-width: 90%;
   margin: auto;
+  align-items: center;
 }
 .wd_flex {
   display: flex;
@@ -80,7 +76,7 @@ button {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background: #f3f5f9;
+  background: #ffffff;
   margin-left: 20px;
   text-align: center;
   border-radius: 50%;
@@ -146,13 +142,14 @@ button {
 }
 /*---------product-----------*/
 .wproduct {
-  background: #fff;
+  background: #f3f5f9;
   padding: 20px;
-  position: relative;
+  position: center;
   border-radius: 10px;
   box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
   margin: 10px;
   height: 300px;
+  align-items: center;
 }
 .wproduct h3 {
   font-weight: 400;

@@ -1,18 +1,16 @@
 import React from 'react';
 import '../../App.css';
-import Categories from '../pages/Categories';
-import FdItem from './ElItem';
-import ElCategories from './ElCategories';
+import ElItem from './ElItem';
+import Home1 from "./Home1"
 
 function Home() {
   return (
     <>
       <section>
+      <Home1/>
         <div className='container d_flex'>
-          <Categories />
-          <ElCategories />
             <div className='qwe'>
-               <FdItem />
+               <ElItem />
             </div>
         </div>
       </section>
@@ -21,3 +19,4 @@ function Home() {
 }
 
 export default Home;
+

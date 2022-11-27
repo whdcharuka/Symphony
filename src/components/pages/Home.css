@@ -152,6 +152,7 @@ button {
   color: #fff;
   border-radius: 10px;
   margin-right: 150px;
+  margin-top: 80px;
 }
 /* .top {
   margin-top: 80px;
@@ -338,7 +339,7 @@ button {
 
 .f_flex1 {
   display: flex;
-  margin-bottom: -20px;
+  margin-bottom: 0px;
 }
 
 .fa {

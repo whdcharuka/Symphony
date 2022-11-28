@@ -26,7 +26,13 @@ function Footer() {
               SERVICES
             </Link>
           </div>
-        </div>
+          <div class='footer-link-items'>
+            <Link
+              to='/Condition'
+            >
+              CONDITIONS
+            </Link>
+          </div>
           <div class='footer-link-items'>
             <Link
               to='/Contacts'
@@ -41,6 +47,7 @@ function Footer() {
               ABOUT
             </Link>
           </div>
+        </div>
       </div>
       <section class='social-media'>
         <div class='social-media-wrap'>

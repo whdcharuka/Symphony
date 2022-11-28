@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SignUp from './components/pages/SignUp';
 import Login from './components/pages/Login';
 import Register from './components/pages/Register';
-import Reset from './components/pages/Reset';
 
 import Services from './components/pages/Services/Services';
 import Contacts from './components/pages/Contact/Contacts';
@@ -59,7 +58,6 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/login' component={Login} />
           <Route path='/register' component={Register} />
-          <Route path='/reset' component={Reset} />
           
           <Route path='/Services' component={Services} />
           <Route path='/Contacts' component={Contacts} />

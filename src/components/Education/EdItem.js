@@ -6,7 +6,7 @@ const Wrapper = () => {
   const data = [
     {
       path:"./Vp1",
-      cateImg: "./images/vehicalparts/horn.jpg",
+      cateImg: "./images/Education/1.jpg",
       title: "Horn ",
       brand:"Apple",
       model:"single",
@@ -16,7 +16,7 @@ const Wrapper = () => {
     },
     {
       path:"./Vp2",
-      cateImg: "./images/vehicalparts/air-filter.jpg",
+      cateImg: "./images/Education/2.jpg",
       title: "Air filter ",
       brand:"Apple",
       model:"single",
@@ -26,7 +26,7 @@ const Wrapper = () => {
     },
     {
       path:"./Vp3",
-      cateImg: "./images/vehicalparts/fuel filter.jpg",
+      cateImg: "./images/Education/3.jpg",
       title: "Fuel filter ",
       brand:"Apple",
       model:"single",
@@ -36,7 +36,7 @@ const Wrapper = () => {
     },
     {
       path:"./Vp4",
-      cateImg: "./images/vehicalparts/oil filter.jpg",
+      cateImg: "./images/Education/4.jpg",
       title: "Oil filter ",
       brand:"Apple",
       model:"single",

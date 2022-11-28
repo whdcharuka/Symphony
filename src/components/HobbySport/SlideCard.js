@@ -24,7 +24,7 @@ const SlideCard = () => {
             <>
               <div className='box d_flex top' key={index}>
                 <div className='left'>
-                <h3>Hobby & Sports</h3>
+                <h3>Hobby</h3>
                   <h6>{value.title}</h6>
                   {/* <p>{value.desc}</p> */}
                   <Link to='/Sport' className='abc'><button className='btn-primary1'>VISIT COLLECTIONS</button></Link>

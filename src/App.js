@@ -9,10 +9,10 @@ import Login from './components/pages/Login';
 import Register from './components/pages/Register';
 import Reset from './components/pages/Reset';
 
-import Services from './components/pages/Services/Services';
-import Contacts from './components/pages/Contact/Contacts';
-import About from './components/pages/About/About';
-import Condition from './components/pages/Conditions/Condition';
+import Services from './components/pages/Services';
+import Contacts from './components/pages/Contacts';
+import About from './components/pages/About';
+import Condition from './components/pages/Condition';
 
 import Vehicalparts from './components/Vehicalparts/Vehicalparts';
 import Battery from './components/Vehicalparts/Battery';

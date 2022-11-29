@@ -16,7 +16,7 @@
   margin-left: 280px;
   margin-right: 275px;
   margin-top: 30px;
-  margin-bottom: 60px;
+  margin-bottom: 80px;
 }
 
 .h5{
@@ -93,6 +93,12 @@
   .register .col-2 img{
     display: initial;
   }
+}
+
+.register .col-10 img{
+  width: 90%;
+  height: 80%;
+  margin-bottom: 165px;
 }
 
 .btn1{

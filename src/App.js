@@ -7,13 +7,19 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import SignUp from './components/pages/SignUp';
 import Login from './components/pages/Login';
 import Register from './components/pages/Register';
+import Reset from './components/pages/Reset';
 
 import Services from './components/pages/Services/Services';
 import Contacts from './components/pages/Contact/Contacts';
 import About from './components/pages/About/About';
+import Condition from './components/pages/Conditions/Condition';
 
 import Vehicalparts from './components/Vehicalparts/Vehicalparts';
+import Battery from './components/Vehicalparts/Battery';
+import Wheel from './components/Vehicalparts/Wheel';
 import Engine from './components/Vehicalparts/Engine';
+import Screen from './components/Vehicalparts/Screen';
+import Fuel from './components/Vehicalparts/Fuel';
 
 import ElectronicDevices from './components/ElectronicDevices/ElectronicDevices';
 import Mobile from './components/ElectronicDevices/Mobile';
@@ -58,13 +64,19 @@ function App() {
           <Route path='/sign-up' component={SignUp} />
           <Route path='/login' component={Login} />
           <Route path='/register' component={Register} />
+          <Route path='/Reset' component={Reset} />
           
           <Route path='/Services' component={Services} />
           <Route path='/Contacts' component={Contacts} />
           <Route path='/About' component={About} />
+          <Route path='/Condition' component={Condition} />
           
           <Route path='/vehicalparts' component={Vehicalparts} />
+          <Route path='/Battery' component={Battery} />
+          <Route path='/Wheel' component={Wheel} />
           <Route path='/Engine' component={Engine} />
+          <Route path='/Screen' component={Screen} />
+          <Route path='/Fuel' component={Fuel} />
 
           <Route path='/ElectronicDevices' component={ElectronicDevices} />
           <Route path='/Mobile' component={Mobile} />

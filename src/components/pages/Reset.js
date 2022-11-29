@@ -1,7 +1,7 @@
 import React from 'react'
 import './Login.css';
+import { Link } from 'react-router-dom';
 import { useForm } from 'react-hook-form';
-import CardItem from '../CardItem';
 
 export default function Form() {
 
@@ -9,46 +9,24 @@ export default function Form() {
     const onSubmit = data => console.log(data);
     
   return (
-    <div className='cards'>
-    <h1>Browse items by category</h1>
-      <div className='cards__container'>
-        <div className='cards__wrapper'>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/car.png'
-              text='Details'
-              path='/Itemview'
-            />
-            <CardItem
-              src='images/smartphone (2).png'
-              text='Details'
-              path='/ElectronicDevices'
-            />
-            <CardItem
-              src='images/house.png'
-              text='Details'
-              path='/HomeGarden'
-            />
-          </ul> 
-          <ul className='cards__items'>
-            <CardItem
-              src='images/car.png'
-              text='Details'
-              path='/vehicalparts'
-            />
-            <CardItem
-              src='images/smartphone (2).png'
-              text='Details'
-              path='/ElectronicDevices'
-            />
-            <CardItem
-              src='images/house.png'
-              text='Details'
-              path='/HomeGarden'
-            />
-          </ul>       
-          </div>
-        </div>
-      </div>
-  );
+        <section>
+            <div className="register">
+                <div className="col-1">
+                    <h2>Reset Password</h2>
+                      <span>Enter your email here!</span>
+
+                      <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
+                          <input type="text" className='d' {...register("email")} placeholder='Email' />
+                          {errors.mobile?.type === "required" && "Mobile Number is required"}
+                          {errors.mobile?.type === "maxLength" && "Max Length Exceed"}
+                          <button className='btn'>Reset Password</button>
+                      </form>
+
+                  </div>
+                        <div className="col-10">
+                            <img src='images/6333057.jpg' />
+                        </div>
+              </div>
+          </section>
+  )
 }

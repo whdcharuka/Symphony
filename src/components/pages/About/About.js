@@ -27,7 +27,7 @@ const Wrapper = () => {
           {data.map((val, index) => {
             return (
               <div className='wproduct' key={index}>
-                <h1 className="how3">{val.title}</h1>
+                <p className="how5">{val.title}</p>
                   <p>{val.decs}</p>
                   <p>{val.decs1}</p>
               </div>

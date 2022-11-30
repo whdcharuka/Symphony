@@ -1,0 +1,151 @@
+.wrapper {
+  text-align: center;
+}
+
+.wrapper .img {
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  line-height: 80px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.wrapper .img i {
+  font-size: 40px;
+}
+
+.wrapper .product {
+  padding: 10px;
+}
+
+.wrapper .product h3 {
+  font-weight: 500;
+  color: grey;
+}
+
+.wrapper p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: grey;
+}
+
+.wcontainer {
+  max-width: 90%;
+  margin: auto;
+  align-items: center;
+}
+.wd_flex {
+  display: flex;
+  justify-content: space-between;
+}
+.wc_flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.wf_flex {
+  display: flex;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style: none;
+}
+.wuppercase {
+  text-transform: uppercase;
+}
+.wcapitalize {
+  text-transform: capitalize;
+}
+.wRText {
+  text-align-last: right;
+}
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: none;
+}
+.wrow {
+  width: 50%;
+}
+.wicon-circle {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  background: #ffffff;
+  margin-left: 20px;
+  text-align: center;
+  border-radius: 50%;
+}
+.wboxShadow {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+.wcontentWidth {
+  width: 77%;
+}
+.wcategory {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+  background-color: #fff;
+  width: 23%;
+  height: 510px;
+  padding: 15px 0;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.wcategory img {
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+  object-fit: contain;
+}
+.wcategory span {
+  margin: 10px 20px;
+  text-transform: capitalize;
+}
+.wcategory .box {
+  transition: 0.5s;
+  padding: 0 20px;
+}
+.wcategory .box:hover {
+  background-color: #ffe1e6;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.wproduct {
+  background: #f3f5f9;
+  padding: 20px;
+  position: center;
+  border-radius: 10px;
+  box-shadow: rgb(3 0 71 / 9%) 0px 1px 3px;
+  margin: 10px;
+  height: 300px;
+  align-items: center;
+}
+.wproduct h3 {
+  font-weight: 400;
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+}
+
+.grid7 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}

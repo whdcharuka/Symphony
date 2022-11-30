@@ -50,6 +50,24 @@
   border: 1px solid var(--primary);
 }
 
+.btn-primary {
+  background: #000000;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.btn-primary1 {
+  background: #000000;
+  padding: 13px 40px;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 10px;
+  margin-right: 100px;
+  margin-top: 80px;
+}
+
 .btn--outline {
   background-color: transparent;
   color: rgb(255, 255, 255);

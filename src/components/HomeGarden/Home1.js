@@ -1,7 +1,6 @@
 import React from "react"
 import Categories from "../pages/Categories"
 import HgCategories from './HgCategories';
-import "../pages/Home.css"
 import SliderHome from "./Slider"
 
 const Home = () => {

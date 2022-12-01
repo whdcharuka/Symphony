@@ -59,7 +59,7 @@ const Categories = () => {
       <h3 className='types'>TYPES</h3>
         <div className='box '>
           <ul>
-            <Link to="./Teddy"><i class="fa fa-square" aria-hidden="true"><span>TEDDY BEAR</span></i></Link>
+            <Link to="./TeddyBear"><i class="fa fa-square" aria-hidden="true"><span>TEDDY BEAR</span></i></Link>
             <Link to="./Bicycle"><i class="fa fa-square" aria-hidden="true"><span>BICYCLES</span></i></Link>
             <Link to="./Car"><i class="fa fa-square" aria-hidden="true"><span>CAR ITEMS</span></i></Link>
             <Link to="./Doll"><i class="fa fa-square" aria-hidden="true"><span>DOLLS</span></i></Link>

@@ -61,9 +61,9 @@ const Categories = () => {
           <ul>
             <Link to="./Bag"><i class="fa fa-square" aria-hidden="true"><span>BAGS</span></i></Link>
             <Link to="./Clothes"><i class="fa fa-square" aria-hidden="true"><span>CLOTHING</span></i></Link>
-            <Link to="./Jewe"><i class="fa fa-square" aria-hidden="true"><span>JEWELLERY</span></i></Link>
-            <Link to="./Sunglass"><i class="fa fa-square" aria-hidden="true"><span>SUNGLASSES</span></i></Link>
-            <Link to="./Shoe"><i class="fa fa-square" aria-hidden="true"><span>SHOES </span></i></Link>
+            <Link to="./Jwel"><i class="fa fa-square" aria-hidden="true"><span>JEWELLERY</span></i></Link>
+            <Link to="./Sun"><i class="fa fa-square" aria-hidden="true"><span>SUNGLASSES</span></i></Link>
+            <Link to="./Shoes"><i class="fa fa-square" aria-hidden="true"><span>SHOES </span></i></Link>
           </ul>
           </div>
       </div> 

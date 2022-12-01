@@ -59,11 +59,11 @@ const Categories = () => {
       <h3 className='types'>TYPES</h3>
         <div className='box '>
           <ul>
-            <Link to="./School"><i class="fa fa-square" aria-hidden="true"><span>CATS</span></i></Link>
-            <Link to="./Note"><i class="fa fa-square" aria-hidden="true"><span>PET FOODS</span></i></Link>
-            <Link to="./Water"><i class="fa fa-square" aria-hidden="true"><span>DOGS</span></i></Link>
-            <Link to="./Stoory"><i class="fa fa-square" aria-hidden="true"><span>FARM ANIMALS</span></i></Link>
-            <Link to="./Stationary"><i class="fa fa-square" aria-hidden="true"><span>FISH</span></i></Link>
+            <Link to="./Cat"><i class="fa fa-square" aria-hidden="true"><span>CATS</span></i></Link>
+            <Link to="./Petfood"><i class="fa fa-square" aria-hidden="true"><span>PET FOODS</span></i></Link>
+            <Link to="./Dog"><i class="fa fa-square" aria-hidden="true"><span>DOGS</span></i></Link>
+            <Link to="./Farm"><i class="fa fa-square" aria-hidden="true"><span>FARM ANIMALS</span></i></Link>
+            <Link to="./Fish"><i class="fa fa-square" aria-hidden="true"><span>FISH</span></i></Link>
           </ul>
           </div>
       </div> 

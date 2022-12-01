@@ -27,7 +27,7 @@ const SlideCard = () => {
                 <h3>Vehical Parts</h3>
                   <h6>{value.title}</h6>
                   {/* <p>{value.desc}</p> */}
-                  <Link to='/Battery' className='abc'><button className='btn-primary1'>VISIT COLLECTIONS</button></Link>
+                  <Link to='/Engine' className='abc'><button className='btn-primary1'>VISIT COLLECTIONS</button></Link>
                 </div>
                 <div className='right'>
                   <img src={value.cover} alt='' />

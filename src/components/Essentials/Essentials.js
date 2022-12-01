@@ -1,21 +1,19 @@
-import React from 'react';
-import '../../App.css';
-import EsItem from './EsItem';
-import Home1 from "./Home1"
+import React from "react"
+import Categories from "../pages/Categories"
+import EsCategories from './EsCategories';
+import SliderHome from "./Slider"
 
-function Home() {
+const Home = () => {
   return (
     <>
-      <section>
-      <Home1/>
+      <section className='home'>
+      <Categories />
         <div className='container d_flex'>
-            <div className='qwe'>
-               <EsItem />
-            </div>
+          <SliderHome />
         </div>
       </section>
     </>
-  );
+  )
 }
 
-export default Home;
+export default Home

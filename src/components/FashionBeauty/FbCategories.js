@@ -49,7 +49,7 @@
 
 import React from "react"
 import { Link } from "react-router-dom"
-import '../pages/Categories.css';
+import '../../App.css';
 
 const Categories = () => {
   

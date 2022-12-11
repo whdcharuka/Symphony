@@ -23,9 +23,15 @@ export default function Form() {
                       </form>
 
                   </div>
-                        <div className="col-10">
+                        <div className="col-2">
                             <img src='images/6333057.jpg' />
                         </div>
+              </div>
+              <div className="register">
+                <div className="col-3">
+                      <span>We will sent a link to reset your password! </span><br></br>
+                      <span>Please check your mail inbox.</span>
+                  </div>
               </div>
           </section>
   )

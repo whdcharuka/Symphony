@@ -30,7 +30,7 @@ export default function Form() {
                     <hr></hr>
                     <label>Add photo</label> 
                     <div>
-                      <input type="file" className="file"></input>
+                      <input type="file"></input>
                       {/* <input type="file" className="file"></input>
                       <input type="file" className="file"></input> */}
                     </div>
@@ -41,7 +41,7 @@ export default function Form() {
                     </div> */}
                     
                     <hr></hr>
-                    <h4>Contact details</h4>
+                    <label>Contact details</label>
                     {/* <label>Name</label> */}
                       <input type="text" className='d' {...register("name")} placeholder='Name' />
                     

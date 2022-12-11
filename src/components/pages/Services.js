@@ -1,5 +1,5 @@
 import React from "react"
-import "./Wrapper.css"
+import "./Home/HomeWrapper.css"
 
 const Wrapper = () => {
   const data = [

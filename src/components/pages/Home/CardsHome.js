@@ -157,10 +157,11 @@ const Wrapper = () => {
           {data.map((val, index) => {
             return (
               <div key={index}>
+                <Link to={val.path}>
                 <div className="category1">
                  <img src={val.cateImg} alt='' />
                 </div>
-                <Link to={val.path}><h3>{val.title}</h3></Link>
+                <span>{val.title}</span></Link>
               </div>
             )
           })}

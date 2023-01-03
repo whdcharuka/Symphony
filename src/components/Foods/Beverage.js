@@ -74,7 +74,7 @@ const Wrapper = () => {
   ]
   return (
     <>
-    <h1 className='qwe3'>Cakes</h1>
+    <h1 className='qwe3'>Beverages</h1>
       <FdCategories/>
       <section className='wrapper wbackground'>
         <div className='wcontainer1 grid9'>

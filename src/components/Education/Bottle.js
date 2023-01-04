@@ -49,7 +49,7 @@ const Wrapper = () => {
   ]
   return (
     <>
-    <h1 className='qwe3'>Wate Bottles</h1>
+    <h1 className='qwe3'>Water Bottles</h1>
       <EdCategories/>
       <section className='wrapper wbackground'>
         <div className='wcontainer1 grid9'>

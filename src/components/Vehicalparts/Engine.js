@@ -3,6 +3,7 @@ import "../pages/Wrapper.css"
 import '../../App.css';
 import { Link } from "react-router-dom"
 import VpCategories from "./VpCategories"
+import Categories from "../pages/Categories"
 
 const Wrapper = () => {
   const data = [
@@ -36,20 +37,23 @@ const Wrapper = () => {
       phone:"+94 762 559 389",
       email:"ergset@gmail.com",
     },
-    {
-      path:"./Vp4",
-      cateImg: "./images/vehicalparts/4.jpg",
-      title: "EXMF105D31RL2YR(90ah)",
-      brand:"EXIDE",
-      model:"single",
-      decs: "MF105D31R/L | Voltage :12v |  Current :90 Ah",
-      phone:"+94 762 559 389",
-      email:"ergset@gmail.com",
-    },
+    // {
+    //   path:"./Vp4",
+    //   cateImg: "./images/vehicalparts/4.jpg",
+    //   title: "EXMF105D31RL2YR(90ah)",
+    //   brand:"EXIDE",
+    //   model:"single",
+    //   decs: "MF105D31R/L | Voltage :12v |  Current :90 Ah",
+    //   phone:"+94 762 559 389",
+    //   email:"ergset@gmail.com",
+    // },
   ]
   return (
     <>
     <h1 className='qwe3'>Engine Items</h1>
+    <div className="cow">
+      <Categories />
+    </div>
       <VpCategories />
       <section className='wrapper wbackground'>
         <div className='wcontainer1 grid9'>
@@ -71,7 +75,7 @@ const Wrapper = () => {
             ) 
           })}
         </div>
-      </section> 
+      </section>
     </>
   )
 }

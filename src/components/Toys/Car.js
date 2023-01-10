@@ -3,6 +3,7 @@ import "../pages/Wrapper.css"
 import '../../App.css';
 import { Link } from "react-router-dom"
 import TyCategories from "./TyCategories"
+import Categories from "../pages/Categories"
 
 const Wrapper = () => {
   const data = [

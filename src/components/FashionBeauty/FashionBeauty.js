@@ -1,16 +1,20 @@
 import React from "react"
 import Categories from "../pages/Categories"
 import SliderHome from "./Slider"
+import FbCategories from "./FbCategories"
 
 const Home = () => {
   return (
     <>
-      <section className='home'>
-      <Categories />
+      <div className='cow2'>
+        <Categories />
+      </div>
+      <div className='cow3'>
+        <FbCategories />
+      </div>
         <div className='container d_flex'>
           <SliderHome />
         </div>
-      </section>
     </>
   )
 }

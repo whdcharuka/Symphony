@@ -3,6 +3,7 @@ import "../pages/Wrapper.css"
 import '../../App.css';
 import { Link } from "react-router-dom"
 import HsCategories from "./HsCategories"
+import Categories from "../pages/Categories"
 
 const Wrapper = () => {
   const data = [
@@ -36,20 +37,23 @@ const Wrapper = () => {
       phone:"021548936",
       email:"ergset@gmail.com",
     },
-    {
-      path:"./Vp4",
-      cateImg: "./images/HobbySport/16.jpg",
-      title: "Oil filter ",
-      brand:"Apple",
-      model:"single",
-      decs: "You can use decorate your table Table suitable",
-      phone:"021548936",
-      email:"ergset@gmail.com",
-    },
+    // {
+    //   path:"./Vp4",
+    //   cateImg: "./images/HobbySport/16.jpg",
+    //   title: "Oil filter ",
+    //   brand:"Apple",
+    //   model:"single",
+    //   decs: "You can use decorate your table Table suitable",
+    //   phone:"021548936",
+    //   email:"ergset@gmail.com",
+    // },
   ]
   return (
     <>
     <h1 className='qwe3'>Gym Items</h1>
+    <div className="cow">
+      <Categories />
+    </div>
       <HsCategories/>
       <section className='wrapper wbackground'>
         <div className='wcontainer1 grid9'>

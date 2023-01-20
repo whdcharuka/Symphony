@@ -37,20 +37,23 @@ const Wrapper = () => {
       phone:"021548936",
       email:"ergset@gmail.com",
     },
-    {
-      path:"./Vp4",
-      cateImg: "./images/vehicalparts/16.jpg",
-      title: "Oil filter ",
-      brand:"Apple",
-      model:"single",
-      decs: "You can use decorate your table Table suitable",
-      phone:"021548936",
-      email:"ergset@gmail.com",
-    },
+    // {
+    //   path:"./Vp4",
+    //   cateImg: "./images/vehicalparts/16.jpg",
+    //   title: "Oil filter ",
+    //   brand:"Apple",
+    //   model:"single",
+    //   decs: "You can use decorate your table Table suitable",
+    //   phone:"021548936",
+    //   email:"ergset@gmail.com",
+    // },
   ]
   return (
     <>
     <h1 className='qwe3'>Windscreen</h1>
+    <div className="cow">
+      <Categories />
+    </div>
       <VpCategoris />
       <section className='wrapper wbackground'>
         <div className='wcontainer1 grid9'>

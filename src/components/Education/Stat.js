@@ -9,7 +9,7 @@ const Wrapper = () => {
   const data = [
     {
       path:"./Vp1",
-      cateImg: "./images/Education/9.jpg",
+      cateImg: "./images/Education/8.jpg",
       title: "Horn ",
       brand:"Apple",
       model:"single",
@@ -19,7 +19,7 @@ const Wrapper = () => {
     },
     {
       path:"./Vp2",
-      cateImg: "./images/Education/10.jpg",
+      cateImg: "./images/Education/9.jpg",
       title: "Air filter ",
       brand:"Apple",
       model:"single",
@@ -29,7 +29,7 @@ const Wrapper = () => {
     },
     {
       path:"./Vp3",
-      cateImg: "./images/Education/11.jpg",
+      cateImg: "./images/Education/10.jpg",
       title: "Fuel filter ",
       brand:"Apple",
       model:"single",

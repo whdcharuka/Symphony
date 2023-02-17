@@ -21,6 +21,8 @@ export default function Form() {
                       <input type="text" className='d' {...register("email")} placeholder='Email' />
                       <input type="text" className='d' {...register("pwd")} placeholder='Password' />
                       <input type="text" className='d' {...register("confirmpwd")} placeholder='Confirm Password' />
+                      <>Upload your GS certificate</>
+                      <input type="file" className='d' {...register("gscer")} />
                       {errors.mobile?.type === "required" && "Mobile Number is required"}
                       {errors.mobile?.type === "maxLength" && "Max Length Exceed"}
                       <button className='btn'>Create Account</button>

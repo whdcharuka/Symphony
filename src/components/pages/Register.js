@@ -18,6 +18,9 @@ export default function Form() {
 
                   <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
                       <input type="text" className='d' {...register("fullname")} placeholder='Full Name' />
+                      <input type="text" className='d' {...register("bdy")} placeholder='Birthday' />
+                      <input type="text" className='d' {...register("mob")} placeholder='Mobile Number' />
+                      <input type="text" className='d' {...register("caddress")} placeholder='Current Address' />
                       <input type="text" className='d' {...register("email")} placeholder='Email' />
                       <input type="text" className='d' {...register("pwd")} placeholder='Password' />
                       <input type="text" className='d' {...register("confirmpwd")} placeholder='Confirm Password' />

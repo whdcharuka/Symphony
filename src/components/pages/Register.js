@@ -24,7 +24,7 @@ export default function Form() {
                       <input type="text" className='d' {...register("email")} placeholder='Email' />
                       <input type="text" className='d' {...register("pwd")} placeholder='Password' />
                       <input type="text" className='d' {...register("confirmpwd")} placeholder='Confirm Password' />
-                      <>Upload your GS certificate</>
+                      <>Upload your GS certificate here</>
                       <input type="file" className='d' {...register("gscer")} />
                       {errors.mobile?.type === "required" && "Mobile Number is required"}
                       {errors.mobile?.type === "maxLength" && "Max Length Exceed"}

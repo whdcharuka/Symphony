@@ -15,14 +15,14 @@ export default function Form() {
                   <hr></hr>
                   <form id='form' className='flex flex-col' onSubmit={handleSubmit(onSubmit)}>
                     
-                    {/* <label>Brand</label> */}
+                    {/* <label>Brand</label>
                       <input type="text" className='d' {...register("brand")} placeholder='Brand' />
                     
-                    {/* <label>Model</label>   */}
-                      <input type="text" className='d' {...register("model")} placeholder='Model' />
+                    <label>Model</label>  
+                      <input type="text" className='d' {...register("model")} placeholder='Model' /> */}
                     
                     {/* <label>Tittle</label> */}
-                      <input type="text" className='d' {...register("tittle")} placeholder='Tittle' />
+                      <input type="text" className='d' {...register("name")} placeholder='Name' />
                     
                     {/* <label>Description</label>   */}
                       <input type="text" className='e' {...register("description")} placeholder='Description' />
